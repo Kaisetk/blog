@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  {% include "head.njk" %}
+  {% include "og-website.njk" %}
+
+  <link rel="stylesheet" href="/css/style-grid.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "{{ site.url }}",
+    "name": "{{ site.name | escape }}",
+    "description": "{{ site.description | escape }}",
+    "potentialAction": [
+      {% for cat in slugs.category %}
+      {
+        "@type": "SearchAction",
+        "target": "{{ site.url }}/articles-list/?category={{ cat.id | url }}",
+        "name": "{{ cat.name | escape }}の記事一覧"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    {% include "header.njk" %}
+    <main>
+
+      <!--コンテンツ-->
+      {{ content | safe }}
+
+      <h3>新着記事</h3>
+      <ul id="latest-articles" class="articles_list">
+        {% for article in collections.latestArticles %}
+          {% include "parts-articles-list.njk" %}
+        {% endfor %}
+      </ul>
+
+      <div class="search-suggestions">
+        <h3>記事をさがす</h3>
+        {% include "parts-suggestion.njk" %}
+      </div>
+
+    </main>
+    {% include "footer.njk" %}
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      hideLoading();
+    });
+  </script>
+
+</body>
+
+</html>

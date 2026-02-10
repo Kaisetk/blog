@@ -1,0 +1,10 @@
+---
+layout: layout-articles-list-tag.njk
+title: 記事一覧
+description: 記事一覧ページです。カテゴリやタグから記事を探せます。
+pagination:
+  data: collections.articlesByTag
+  size: 1 #これは何個のタグごとに1つのページ構成するか、という単位になっているらしい
+  alias: item
+permalink: "/articles-list/tag/{{ item.tag }}/index.html"
+---

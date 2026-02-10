@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  {% set title = item.tag | getTagName(slugs) ~ "の記事一覧" %}
+  {% include "head.njk" %}
+  {% include "og-website.njk" %}
+
+  <link rel="stylesheet" href="/css/style-grid.css">
+  <link rel="stylesheet" href="/css/style-article-list.css">
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{ title }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "numberOfItems": {{ item.posts | length }},
+    "itemListElement": [
+      {% for article in item.posts %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "url": "{{ site.url }}/articles/{{ article.id }}/",
+        "name" : "{{ article.title }}",
+        "description" : "{{ article.intro }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+
+</head>
+
+<body>
+  <div class="page-wrapper">
+    {% include "header.njk" %}
+    <main>
+
+      <!-- パンくずリスト -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="{{ site.url }}">ホーム</a><span class="gt"> &gt; </span>
+        <a href="{{ site.url }}/articles-list/"> 記事一覧 </a> <span class="gt">&rsaquo;</span>
+        <span id="breadcrumb-current-container">{{ item.tag | getTagName(slugs) }}</span> <!-- JSでカテゴリ/タグ追加 -->
+      </nav>
+
+      <!-- 見出し -->
+      <h1 id="page-title">{{ title }}</h1>
+
+      <!-- 記事リスト -->
+      <ul class="articles_list">
+        {% for article in item.posts %}
+        {% include "parts-articles-list.njk" %}
+        {% endfor %}
+      </ul>
+
+      <div class="search-suggestions">
+        <h3>もっと記事を探す</h3>
+
+        {% include "parts-suggestion.njk" %}
+
+      </div>
+
+    </main>
+    {% include "footer.njk" %}
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      hideLoading();
+    });
+  </script>
+
+</body>
+
+</html>

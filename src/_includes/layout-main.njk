@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  {% include "head.njk" %}
+  {% include "og-website.njk" %}
+  <script src="/js/script-layout-main.js" defer></script>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    {% include "header.njk" %}
+    <main>
+
+      <!--パンくずリスト-->
+      {% if page.fileSlug !== '404' %}
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="{{ site.url }}">ホーム</a>
+        {% if page.fileSlug %}
+        <span class="gt">&rsaquo;</span>
+        <span>{{ title }}</span>
+        {% endif %}
+      </nav>
+      {% endif %}
+
+      <!--コンテンツ-->
+      {{ content | safe }}
+
+      {% if needlinks %}<!--指定したページのみ下部にカテゴリ、タグのリストを追加-->
+      <div class="search-suggestions">
+        <h3>記事をさがす</h3>
+        {% include "parts-suggestion.njk" %}
+      </div>
+      {% endif %}
+
+
+    </main>
+    {% include "footer.njk" %}
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      hideLoading();
+    });
+  </script>
+</body>
+
+</html>

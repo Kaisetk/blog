@@ -1,0 +1,156 @@
+.categories-pagination {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.categories-pagination ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.categories-pagination li {
+  margin: 0;
+}
+
+.categories-pagination a {
+  display: block;
+  padding: 8px 16px;
+  color: #333;
+  text-decoration: none;
+  border-right: 1px solid #ddd;
+}
+
+.categories-pagination li:last-child a {
+  border-right: none;
+}
+
+.categories-pagination a:hover {
+  background: #f5f5f5;
+}
+
+.categories-pagination a.active {
+  background: #333;
+  color: #fff;
+    font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;       /* 一行に収める */
+  gap: 0.4rem;             /* リンク間隔 */
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  white-space: nowrap;     /* 改行防止 */
+}
+
+/* 数字リンク・前後・最初/最後共通 */
+.pagination a {
+  text-decoration: none;
+  color: #00796b;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ホバー時 */
+.pagination a:hover {
+  background: #f0f0f0;
+  color: #00796b;
+}
+/* ページネーション全体 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+  font-family: system-ui, sans-serif;
+  white-space: nowrap;
+  font-size: 0.95rem;
+  padding: 5px 10px; /* ← 少し余白を増やす */
+  box-sizing: border-box;
+}
+
+/* 数字リンク・現在ページ・前後/最初/最後共通 */
+.pagination a,
+.pagination .current {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ホバー時 */
+.pagination a:hover {
+  background: #f0f0f0;
+  color: #00796b;
+}
+
+/* 現在ページ */
+.pagination .current {
+  font-weight: bold;
+  color: #fff;
+  background: #00796b;
+  pointer-events: none;
+}
+
+/* 前へ / 次へ / 最初 / 最後を控えめに */
+.pagination .prev,
+.pagination .next,
+.pagination .first,
+.pagination .last {
+  font-weight: 500;
+  color: #555;
+}
+.pagination .prev:hover,
+.pagination .next:hover,
+.pagination .first:hover,
+.pagination .last:hover {
+  background: #f0f0f0;
+  color: #333;
+}
+
+/* スマホ向け調整 */
+@media (max-width: 480px) {
+  .pagination {
+    font-size: 0.85rem;
+    gap: 0.25rem;
+    flex-wrap: wrap;        /* ← 折り返し許可 */
+    white-space: normal;    /* ← 改行許可 */
+    padding: 0.5rem 1rem;   /* ← 左右に少し余裕を */
+  }
+
+  .pagination a,
+  .pagination .current {
+    padding: 0.3rem 0.5rem;
+    flex: 0 1 auto;         /* ← 幅を自動で調整 */
+  }
+}
+
+/* ページ番号表示 */
+.pagination-status {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+/* スマホ対応 */
+@media (max-width: 480px) {
+  .pagination-status {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+  }
+}
+

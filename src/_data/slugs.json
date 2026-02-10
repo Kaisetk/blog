@@ -1,0 +1,34 @@
+{
+  "category": [
+    { "id": "daily-life", "name": "日常生活" },
+    { "id": "trip", "name": "旅行・お出かけ" }
+  ],
+  "tag": [
+
+    { "id": "japan-trip", "name": "国内旅行" },
+    { "id": "overseas-trip", "name": "海外旅行" },
+    { "id": "flights", "name": "飛行機・フライト" },
+    { "id": "lcc", "name": "LCC" },
+    { "id": "cheap-flights", "name": "格安航空券" },
+    { "id": "baggage", "name": "手荷物" },
+    { "id": "hotel", "name": "ホテル・宿泊施設" },
+    { "id": "ryokan", "name": "旅館" },
+    { "id": "gourmet", "name": "グルメ・食事" },
+    { "id": "transportation", "name": "交通手段" },
+    { "id": "train", "name": "電車・鉄道" },
+    { "id": "car-rental", "name": "レンタカー" },
+    { "id": "travel-tips", "name": "旅行のコツ・豆知識" },
+    { "id": "biginner", "name": "初心者" },
+    { "id": "event", "name": "イベント" },
+    { "id": "asia", "name": "アジア" },
+    { "id": "travel-gear", "name": "旅行グッズ・アイテム" },
+
+    { "id": "shopping", "name": "ショッピング・買い物" },
+    { "id": "life-hacks", "name": "ライフハック" },
+    { "id": "technology", "name": "テクノロジー・ガジェット" },
+    { "id": "app", "name": "アプリ" },
+    { "id": "e-commerce", "name": "オンラインショッピング・ECサイト" },
+    { "id": "coupon", "name": "クーポン・割引情報" },
+    { "id": "save-money", "name": "節約・お得情報" }
+  ]
+}

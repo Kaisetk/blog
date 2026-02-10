@@ -1,0 +1,283 @@
+/* ======================================
+   変数 (カラーテーマ)
+====================================== */
+:root {
+  --color-bg: #fff;
+  --color-text: #333;
+  --color-primary: #1a73e8;
+  --color-primary-hover: #e3f2fd;
+  --color-accent: #e2c82f;
+  --color-header-footer: #333;
+  --color-breadcrumb: gray;
+  --color-breadcrumb-sep: lightgray;
+}
+
+/* ======================================
+   基本設定
+====================================== */
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: var(--color-bg);
+  flex: 1 0 auto;
+  color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ======================================
+   リンクスタイル (main 内)
+====================================== */
+main a {
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+main a:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+}
+
+/* ======================================
+   レイアウト: ページラッパー & メイン
+====================================== */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 1em;
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 720px;
+    margin: 60px auto 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    max-width: 1000px;
+  }
+}
+
+/* ======================================
+   共通：ヘッダー高さを変数化
+====================================== */
+:root {
+  --header-h: 64px; /* PCのヘッダーおおよそ高さ（padding込み想定） */
+}
+
+/* 固定ヘッダー下のコンテンツずれ防止（なければ追加） */
+main { padding-top: var(--header-h); }
+
+/* モバイルは少し低く */
+@media (max-width: 768px) {
+  :root { --header-h: 56px; }
+  main { padding-top: var(--header-h); }
+}
+
+/* ======================================
+   ヘッダー
+====================================== */
+.site_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--color-header-footer);
+  color:var(--color-bg);
+  padding: 10px 20px;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.site_header.hide {
+  transform: translateY(-100%);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ロゴ */
+.logo { 
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+.logo img {
+  display: block;           /* 下の行ボックス余白を消す */
+  height: 48px;             /* ここを変えるとロゴの高さが一括で揃う */
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a,
+.site_footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover,
+.site_footer a:hover {
+  color: var(--color-accent);
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* モバイルナビ */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background: #444;
+    padding: 15px;
+    margin: 0 10px 0 0;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 150px;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    opacity: 0.95;
+  }
+
+  .nav-links a {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+/* ======================================
+   フッター
+====================================== */
+.site_footer {
+  background: var(--color-header-footer);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  flex-shrink: 0;
+}
+
+.site_footer .footer-links {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* フッターロゴ */
+.footer-logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 32px;   /* ← ヘッダーより少し小さめに：雰囲気揃える */
+  width: auto;
+  display: block; /* 行ボックスの下余白を消す */
+  opacity: 0.9;   /* 少し落ち着かせる（任意） */
+}
+
+/* ======================================
+   パンくずリスト
+====================================== */
+.breadcrumbs {
+  font-size: 0.7rem;
+  color: var(--color-breadcrumb);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.breadcrumbs a {
+  color: var(--color-breadcrumb);
+  font-weight: bold;
+}
+
+.breadcrumbs a:hover {
+  background-color: #f0f0f0;
+}
+
+.gt {
+  color: var(--color-breadcrumb-sep);
+  font-weight: bold;
+  padding: 2px;
+  transition: color 0.2s ease;
+}
+
+/* ======================================
+   読み込み中表示
+====================================== */
+#loading {
+  position: fixed;
+  inset: 0;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.spinner {
+  border: 6px solid #f3f3f3; /* 外側の色 */
+  border-top: 6px solid #3498db; /* 回転部分の色 */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

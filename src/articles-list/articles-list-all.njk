@@ -1,0 +1,11 @@
+---
+layout: layout-articles-list.njk
+title: 記事一覧
+description: My Blog の記事一覧ページです。カテゴリやタグから記事を探せます。
+pagination:
+  data: collections.articles
+  size: 10         # 1ページあたりの記事数
+  alias: pageArticles
+permalink: "{% if pagination.pageNumber == 0 %}/articles-list/index.html{% else %}/articles-list/page/{{ pagination.pageNumber + 1 }}/index.html{% endif %}"
+
+---

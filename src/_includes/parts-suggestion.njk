@@ -1,0 +1,19 @@
+<div class="categories-suggestion">
+    <h4>記事カテゴリから探す</h4>
+    {% for cat in slugs.category %}
+    <a href="/articles-list/category/{{ cat.id | url }}/" class="category-link">>{{ cat.name }}の記事一覧</a>
+    {% endfor %}
+</div>
+<div id="all_tags"><!--記事が少ないうちはallの場合はタグをすべて表示-->
+    <div class="tags">
+        {% for category, tags in collections.categoryTags %}
+        <h4>{{ category | getCategoryName(slugs) }}関連ワードから探す</h4>
+        {% for tag in tags %}
+        <a href="/articles-list/tag/{{ tag | url }}/" class="tag">
+            #{{ tag | getTagName(slugs) }}
+        </a>
+        {% endfor %}
+        {% endfor %}
+        </ul>
+    </div>
+</div>

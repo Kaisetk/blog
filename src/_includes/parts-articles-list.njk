@@ -1,0 +1,40 @@
+<li class="article_card">
+  <a href="/articles/{{ article.id }}/" class="card">
+    {% if article.eyecatch %}
+      <div class="card-thumb">
+        <img 
+          src="/images/articles/eyecatches/600px/{{ article.eyecatch }}" 
+          alt="{{ article.title }}" 
+          loading="lazy"
+          decoding="async"
+        >
+      </div>
+    {% endif %}
+
+    <div class="card-body">
+      <h2 class="title">{{ article.title }}</h2>
+
+      {% if article.intro %}
+        <p class="intro">{{ article.intro | safe }}</p>
+      {% endif %}
+
+      <div class="card-footer">
+        <span class="category">
+          {{ article.category | getCategoryName(slugs) }}
+        </span>
+
+        {% if article.tags %}
+        <span class="tags">
+          {%- for tag in article.tags -%}
+            #{{ tag | getTagName(slugs) }}{% if not loop.last %} {% endif %}
+          {%- endfor -%}
+        </span>
+        {% endif %}
+
+        <span class="date">
+          {{ article.date | formatDate("yyyy/MM/dd") }}
+        </span>
+      </div>
+    </div>
+  </a>
+</li>

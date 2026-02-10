@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  {% include "head.njk" %}
+  {% include "og-website.njk" %}
+
+  <link rel="stylesheet" href="/css/style-grid.css">
+  <link rel="stylesheet" href="/css/style-article-list.css">
+
+  <script>
+    window.CATEGORY = "{{ category }}"
+  </script>
+  <script src="/js/script-articles-list.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{ title }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "numberOfItems": {{ pagination.items | length }},
+    "itemListElement": [
+      {% for article in pagination.items %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "url": "{{ site.url }}/articles/{{ article.id }}/",
+        "name" : "{{ article.title }}",
+        "description" : "{{ article.intro }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    {% include "header.njk" %}
+    <main>
+
+      <!-- パンくずリスト -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="{{ site.url }}">ホーム</a>
+        <span class="gt"> &gt; </span>
+
+        {% if category %}
+
+        <a href="{{ site.url }}/articles-list/">記事一覧</a>
+        <span class="gt">&rsaquo;</span>
+        <span id="breadcrumb-current-container">
+          {{ category | getCategoryName(slugs) }}
+        </span>
+
+        {% else %}
+
+        <span id="breadcrumb-articles-container">
+          <span id="breadcrumb-articles">{{ title }}</span>
+        </span>
+
+        {% endif %}
+      </nav>
+
+      <!-- 見出し -->
+      <h1 id="page-title">{{ title }}</h1>
+
+      <!-- カテゴリ検索 -->
+      <div class="categories-pagination">
+        <ul>
+          <li><a href="/articles-list/">ALL</a></li>
+          {% for cat in slugs.category %}
+          <li><a href="/articles-list/category/{{ cat.id | url }}/">{{ cat.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      {# 現在のページ数を上に表示 #}
+      <p class="pagination-status">
+        ページ {{ pagination.pageNumber + 1 }} / {{ pagination.pages.length }}
+      </p>
+
+      <!-- 記事リスト -->
+      <div class="articles_list">
+        {% for article in pagination.items %}
+        {% include "parts-articles-list.njk" %}
+        {% endfor %}
+      </div>
+
+      <p class="pagination-status">
+        ページ {{ pagination.pageNumber + 1 }} / {{ pagination.pages.length }}
+      </p>
+      <div class="pagination">
+        {# 最初 / 最後リンク #}
+        {% if pagination.pageNumber > 0 %}
+        <a href="{{ pagination.href.first }}" class="first">« 最初</a>
+        {% endif %}
+
+        {# ページ番号 ±2、最大5表示 #}
+        {% set maxDisplay = 5 %}
+        {% set totalPages = pagination.pages.length %}
+        {% set start = pagination.pageNumber - 2 %}
+        {% set end = pagination.pageNumber + 2 %}
+        {% if start < 0 %} {% set end=end + (0 - start) %} {% set start=0 %} {% endif %} {% if end> totalPages - 1 %} {%
+          set start = start - (end - (totalPages - 1)) %} {% set end = totalPages - 1 %} {% endif %}
+          {% if start < 0 %} {% set start=0 %} {% endif %} {% for i in pagination.pages %} {% set pageNum=loop.index0 %}
+            {% if pageNum>= start and pageNum <= end %} {% if pageNum==pagination.pageNumber %} <span class="current">{{
+              pageNum + 1 }}</span>
+              {% else %}
+              <a href="{{ pagination.hrefs[pageNum] }}">{{ pageNum + 1 }}</a>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+
+              {% if pagination.pageNumber < pagination.pages.length - 1 %} <a href="{{ pagination.href.last }}"
+                class="last">最後 »</a>
+                {% endif %}
+      </div>
+
+
+      <div class="search-suggestions">
+        <h3>もっと記事を探す</h3>
+        {% if category %}
+        <div id="related-tags">
+          {% set tags = collections.categoryTags[category] %}
+          {% if tags and tags | length > 0 %}
+          <h4>関連ワードから探す</h4>
+          <div class="tags">
+            {% for tag in tags %}
+            <a href="{{ site.url }}/articles-list/tag/{{ tag | url }}">
+              #{{ tag | getTagName(slugs) }}
+            </a>
+            {% endfor %}
+          </div>
+          {% else %}
+          <p>関連ワードはありません</p>
+          {% endif %}
+        </div>
+
+        <!-- カテゴリ一覧 -->
+        <div class="categories-suggestion">
+          <h4>記事カテゴリから探す</h4>
+          {% for cat in slugs.category %}
+          <a href="/articles-list/category/{{ cat.id | url }}/" class="category-link">
+            ＞{{ cat.name }}の記事一覧
+          </a>
+          {% endfor %}
+        </div>
+        {% else %}
+        {% include "parts-suggestion.njk" %}
+        {% endif %}
+      </div>
+
+    </main>
+    {% include "footer.njk" %}
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  {% include "head.njk" %}
+  {% include "og-article.njk" %}
+
+  <link rel="stylesheet" href="/css/style-grid.css">
+  <link rel="stylesheet" href="/css/style-articles.css">
+  {% if category %}
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title | escape }}",
+  "description": "{{ intro | escape }}",
+  "image": ["{{ eyecatch }}"],
+  "author": { "@type": "Person", "name": "{{ site.author }}", "url": "{{ site.url }}/about/" },
+  "datePublished": "{{ released | formatDate('yyyy-MM-dd\'T\'HH:mm:ssXXX') }}",
+  "dateModified": "{{ date | formatDate('yyyy-MM-dd\'T\'HH:mm:ssXXX') }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }
+}
+</script>
+  <script>
+    window.SLUGS = {{ slugs | dump | safe }};
+    window.ARTICLES = {{ collections.articles | jsonify | safe }};
+    window.RELATED_IDS = {{ related | dump | safe }};
+  </script>
+  {% endif %}
+  <script src="/js/script-articles.js" defer></script>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    {% include "header.njk" %}
+    <main class="article">
+
+      <!-- パンくずリスト -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="{{ site.url }}">ホーム</a> <span class="gt">&rsaquo;</span>
+        {% if category %}
+        <a href="{{ site.url }}/articles-list/"> 記事一覧 </a> <span class="gt">&rsaquo;</span>
+        <a href="{{ site.url }}/articles-list/category/{{ category | url }}/"> {{ category | getCategoryName(slugs) }}
+        </a> <span class="gt">&rsaquo;</span>
+        {% endif %}
+        <span>{{ title }}</span>
+      </nav>
+
+      <article class="article_content_wrapper">
+        <!-- 記事タイトル -->
+        <header class="article-header">
+          
+          <!-- タグ一覧 -->
+          {% if tags %}
+          <div class="tags">
+            {% for tag in tags %}
+            <a class="tag" href="{{ site.url }}/articles-list/tag/{{ tag | url }}/">#{{ tag | getTagName(slugs) }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+
+
+          <h1>{{ title }}</h1>
+
+          {% if released %}
+          <p class="article-meta">
+
+            {% if released %}
+            <time class="publish-date" datetime="{{ released | formatDate('yyyy-MM-dd\'T\'HH:mm:ssXXX') }}">
+              公開日：{{ released | formatDate("yyyy/MM/dd") }}
+            </time>
+            {% endif %}
+            
+            {% if date %}
+            <time class="update-date" datetime="{{ date | formatDate('yyyy-MM-dd\'T\'HH:mm:ssXXX') }}">
+              更新日：{{ date | formatDate("yyyy/MM/dd") }}
+            </time>
+            {% endif %}
+            {%if doesContainAds%}<br>※アフィリエイト広告を含みます。<br><br>{% endif %}
+            </p>
+          {% endif %}
+        </header>
+
+        {% if eyecatch or intro %}
+        <div class="article-visual-block">
+          {% if eyecatch %}
+          <img src="/images/articles/eyecatches/1200px/{{ eyecatch }}" alt="{{ title }}">
+          {% endif %}
+
+          {% if intro %}
+          <span class="article_intro">
+          {{ intro | safe }}</span>
+          {% endif %}
+        </div>
+        {% endif %}
+
+
+        <!-- 目次 -->
+        <nav id="toc" class="toc">
+          <h2>目次</h2>
+          <ul id="toc-list"></ul>
+        </nav>
+
+        <!-- 記事本文 -->
+        <article id="article-content">
+          {{ content | safe }}
+        </article>
+
+        {% if category %}
+
+        <footer class="article-footer">
+          <h3>関連記事</h3>
+
+          <!--関連記事-->
+          <ul id="articles_list" class="articles_list">
+            <!-- JSで記事リンクを生成 -->
+          </ul>
+
+          <div class="search-suggestions">
+            <h3>ほかの記事も読んでみる</h3>
+            <div class="article-tags-categories">
+              <h4>同じジャンルの記事を探す</h4>
+
+              {% if tags %}
+              <div class="tags" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
+                {% for tag in tags %}
+                <a href="{{ site.url }}/articles-list/tag/{{ tag | url }}/">
+                  #{{ tag | getTagName(slugs) }}
+                </a>
+                {% endfor %}
+              </div>
+              {% endif %}
+
+              <a href="{{ site.url }}/articles-list/category/{{ category | url }}/" class="category-link">
+                > {{ category | getCategoryName(slugs) }}の記事一覧
+              </a><br>
+              <h4>記事一覧から探す</h4>
+              <a href="{{ site.url }}/articles-list/" class="category-link">
+                > 記事一覧へ
+              </a>
+            </div>
+          </div>
+        </footer>
+  </div>
+  {% endif %}
+  </div>
+  </article>
+  </main>
+  {% include "footer.njk" %}
+  </div>
+
+</body>
+
+</html>
