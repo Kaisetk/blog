@@ -13,9 +13,7 @@ description: 本サイトについてのお問い合わせ先のご案内です�
 以下のSNSのDMより受け付けております。 
 
 ## SNS Account
-
-ただいま準備中です。
-<!-- - X（旧Twitter/）：[@setk_by_kai](https://x.com/setk_by_Kai)  -->
+- X（旧Twitter/）：[@setk_by_kai](https://x.com/setk_by_Kai) 
 
 ## 以下のような内容をお待ちしています。  
 
