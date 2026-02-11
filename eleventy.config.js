@@ -158,7 +158,7 @@ module.exports = function (eleventyConfig) {
   // サイト情報（グローバルデータ）
   // ==========================
   eleventyConfig.addGlobalData("site", {
-    url: "http://localhost:8080", // 本番URLに変更予定
+    url: "https://otoku-choices.com",
     name: "調べて、選んで、トクする暮らし。",            // サイト名
     author: "Kai",
     description: "少しでもお得に、日常・非日常を楽しめるライフハックを発信するブログです。"
