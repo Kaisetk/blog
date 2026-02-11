@@ -88,7 +88,7 @@ module.exports = function (eleventyConfig) {
   const CATEGORY_IDS = ["daily-life", "trip"];
 
   CATEGORY_IDS.forEach(cat => {
-    eleventyConfig.addCollection(`category_${cat}`, collectionApi => {
+    eleventyConfig.addCollection(`category-${cat}`, collectionApi => {
       return collectionApi.getAll()
         .filter(item => item.data.released && item.data.category === cat)
         .sort((a, b) => new Date(b.data.released) - new Date(a.data.released))
