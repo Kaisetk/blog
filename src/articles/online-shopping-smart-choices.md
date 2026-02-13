@@ -3,18 +3,18 @@
 layout: layout-articles.njk
 title: ECサイトの選び方｜Amazon・楽天・Yahoo!は生活インフラに合わせると一番お得
 eyecatch: onlineshopping.webp
-date: 2026-02-11
+date: 2026-02-14
 released: 2026-02-11
 category: daily-life
 tags: [life-hacks, shopping, e-commerce, save-money]
 intro: 本記事では、オンラインショッピングサイトをお得に使える選び方をご紹介します。Amazon、楽天、Yahoo!ショッピング、ヨドバシ・ドット・コム、ZOZOTOWN、各メーカーやブランドの公式オンラインショップ...　世の中には大小さまざまのECサイトがありますが、皆さんはどのサイトを活用していますか？「何となくAmazon使っている・・・」「どのサイトも違いが良くわからない」といった方は必見です。
 doesContainAds: true
-related: [lcc-flight-baggage]
+related: [lcc-flight-baggage, furusato-nozei-smart-choices]
 
 ---
 
 ## ECサイトは「メイン」と「サブ」の使い分けが最強
-日常的に使うECサイトは1〜2つに絞ることで、ポイント還元や割引の恩恵を最大化できます。　　
+日常的に使うECサイトは1〜2つに絞ることで、ポイント還元や割引の恩恵を最大化できます。  　
 筆者のおすすめは、**「メイン」と「サブ」のオンラインショップ**（両方とも大規模な総合ECサイト）を決め、それらのサイトを中心に使うことです。後述しますが、「サブ」が不要な人は「メイン」だけでも問題ありません。
 ECサイトをいくつも使って買い物するよりも、極力ひとまとめにしたほうが断然お得です。1つのサイトでの利用金額が増えることで、**ポイント還元や割引の頻度、金額が増える傾向にある**ためです。  
 以下、「メイン」「サブ」の選び方を紹介します。
@@ -52,7 +52,7 @@ ECサイトをいくつも使って買い物するよりも、極力ひとまと
 
 ECサイトと相性の良いクレジットカードを選ぶことで、
 買い物時のポイントアップや、カード入会・利用による特典を受けられる場合もあります。
-可能であれば、クレジットカードもECサイトや生活インフラに合わせて選ぶのがおすすめです。。
+可能であれば、クレジットカードもECサイトや生活インフラに合わせて選ぶのがおすすめです。
 
 <a href="https://hb.afl.rakuten.co.jp/hsc/50d25d05.cfa6aab1.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6MTY3NDAxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hsb/50d25d05.cfa6aab1.50d25d06.088b928e/?me_id=2101008&me_adv_id=167401&t=pict" border="0" style="margin:2px" alt="" title=""></a>
 

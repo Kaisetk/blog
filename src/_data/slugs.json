@@ -29,6 +29,7 @@
     { "id": "app", "name": "アプリ" },
     { "id": "e-commerce", "name": "オンラインショッピング・ECサイト" },
     { "id": "coupon", "name": "クーポン・割引情報" },
-    { "id": "save-money", "name": "節約・お得情報" }
+    { "id": "save-money", "name": "節約・お得情報" },
+    { "id": "saving-money", "name": "貯蓄・資産形成" }
   ]
 }
