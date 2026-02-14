@@ -2,7 +2,7 @@
 layout: layout-articles.njk
 title: 【ふるさと納税】節約・貯蓄したい人向け｜食料品以外の穴場返礼品3選
 eyecatch: onlineshopping.webp
-date: 2026-02-15
+date: 2026-02-14
 released: 2026-02-14
 category: daily-life
 tags: [life-hacks, save-money, saving-money]
