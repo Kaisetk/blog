@@ -1,11 +1,11 @@
 ---
-layout: layout-main.njk
-title: サイト紹介
-description: サイトのコンセプトや運営者を紹介します。
+layout: layout-articles.njk
+title: 本ブログサイトの紹介
+description: 本サイトのコンセプトや運営者を紹介します。
 needlinks: true
 ---
 
-# ブログについて（サイト紹介）
+## ブログについて
 
 「調べて、選んで、トクする暮らし。」へようこそ！
 
