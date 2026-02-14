@@ -5,7 +5,7 @@ description: 旅行 、お出かけの記事一覧ページです。
 category: trip
 pagination:
   data: collections.category-trip
-  size: 1         # 1ページあたりの記事数
+  size: 10         # 1ページあたりの記事数
   alias: pageArticles
 permalink: "{% if pagination.pageNumber == 0 %}/articles-list/category/trip/index.html{% else %}/articles-list/category/trip/page/{{ pagination.pageNumber + 1 }}/index.html{% endif %}"
 ---

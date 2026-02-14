@@ -5,7 +5,7 @@ description: 日常生活の記事一覧ページです。
 category: daily-life
 pagination:
   data: collections.category-daily-life
-  size: 1         # 1ページあたりの記事数
+  size: 10         # 1ページあたりの記事数
   alias: pageArticles
 permalink: "{% if pagination.pageNumber == 0 %}/articles-list/category/daily-life/index.html{% else %}/articles-list/category/daily-life/page/{{ pagination.pageNumber + 1 }}/index.html{% endif %}"
 ---
