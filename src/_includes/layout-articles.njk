@@ -52,7 +52,7 @@
       <article class="article_content_wrapper">
         <!-- 記事タイトル -->
         <header class="article-header">
-          
+
           <!-- タグ一覧 -->
           {% if tags %}
           <div class="tags">
@@ -61,8 +61,6 @@
             {% endfor %}
           </div>
           {% endif %}
-
-
 
           <h1>{{ title }}</h1>
 
@@ -74,14 +72,14 @@
               公開日：{{ released | formatDate("yyyy/MM/dd") }}
             </time>
             {% endif %}
-            
+
             {% if date %}
             <time class="update-date" datetime="{{ date | formatDate('yyyy-MM-dd\'T\'HH:mm:ssXXX') }}">
               更新日：{{ date | formatDate("yyyy/MM/dd") }}
             </time>
             {% endif %}
             {%if doesContainAds%}<br>※アフィリエイト広告を含みます。<br><br>{% endif %}
-            </p>
+          </p>
           {% endif %}
         </header>
 
@@ -93,11 +91,13 @@
 
           {% if intro %}
           <span class="article_intro">
-          {{ intro | safe }}</span>
+            {{ intro | safe }}</span>
           {% endif %}
         </div>
         {% endif %}
 
+        
+        {% include "parts-share.njk" %}
 
         <!-- 目次 -->
         <nav id="toc" class="toc">
@@ -109,6 +109,15 @@
         <article id="article-content">
           {{ content | safe }}
         </article>
+
+        {% include "parts-share.njk" %}
+
+        <div class="author-box">
+          <h3>この記事を書いた人</h3>
+          カイ(Kai)｜お得情報・節約ライフハックブログ運営者<br>
+          なるべく定価で買わない生活を実践中。商品・サービス・旅行予約まで徹底比較し、実際の利用経験や調査・比較をもとに情報を発信しています。
+          くわしいプロフィールは<a href="{{ site.url }}/about/">サイト紹介ページ</a>へ。
+        </div>
 
         {% if category %}
 
@@ -153,6 +162,13 @@
   {% include "footer.njk" %}
   </div>
 
+  <script>
+    function copyUrl() {
+      navigator.clipboard.writeText(window.location.href)
+        .then(() => alert("URLをコピーしました"))
+        .catch(() => alert("コピーに失敗しました"));
+    }
+  </script>
 </body>
 
 </html>

@@ -34,17 +34,18 @@
       <!--コンテンツ-->
       {{ content | safe }}
 
-      <h3>新着記事</h3>
-      <ul id="latest-articles" class="articles_list">
-        {% for article in collections.latestArticles %}
-          {% include "parts-articles-list.njk" %}
-        {% endfor %}
-      </ul>
-
       <div class="search-suggestions">
         <h3>記事をさがす</h3>
         {% include "parts-suggestion.njk" %}
       </div>
+
+
+      <h3>新着記事</h3>
+      <ul id="latest-articles" class="articles_list">
+        {% for article in collections.latestArticles %}
+        {% include "parts-articles-list.njk" %}
+        {% endfor %}
+      </ul>
 
     </main>
     {% include "footer.njk" %}

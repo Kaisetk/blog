@@ -214,6 +214,98 @@
   font-family: monospace;
   font-size: 0.9rem;
 }
+/* ============================================================
+   著者情報
+============================================================ */
+.author-box {
+  margin-top: 40px;
+  padding: 16px 18px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #fafafa;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.author-box h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+/* ===== 汎用シェア ===== */
+
+.share {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+
+.share-label {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.share-list {
+  display: flex;
+  gap: 8px;
+}
+
+/* 共通ボタン */
+.share-item {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 20px;
+  border: 1px solid #e3e3e3;
+  background: transparent;
+  text-decoration: none;
+  color: #444;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+/* hover共通 */
+.share-item:hover {
+  border-color: #bbb;
+}
+
+/* ===== X ===== */
+
+.share-item[href*="twitter"] {
+  border-color: #e5e7eb;
+}
+
+.share-item[href*="twitter"]:hover {
+  background: #f5f8ff;
+  border-color: #000;
+  color: #000;
+}
+
+/* ===== LINE ===== */
+
+.share-item[href*="line.me"] {
+  border-color: #e5e7eb;
+}
+
+.share-item[href*="line.me"]:hover {
+  background: #f2fff5;
+  border-color: #06c755;
+  color: #06c755;
+}
+
+/* ===== URLコピー ===== */
+
+.share-item[type="button"],
+.share-item:not([href]) {
+  background: #fafafa;
+}
+
+.share-item[type="button"]:hover,
+.share-item:not([href]):hover {
+  background: #f0f0f0;
+}
+
 
 /* ============================================================
    レスポンシブ調整

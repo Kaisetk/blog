@@ -1,0 +1,24 @@
+<div class="share">
+    <span class="share-label">Share</span>
+
+    <div class="share-list">
+
+        <!-- X -->
+        <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}"
+            target="_blank" rel="noopener noreferrer" class="share-item" aria-label="Xでシェア">
+            X
+        </a>
+
+        <!-- LINE -->
+        <a href="https://social-plugins.line.me/lineit/share?url={{ site.url }}{{ page.url }}" target="_blank"
+            rel="noopener noreferrer" class="share-item" aria-label="LINEでシェア">
+            LINE
+        </a>
+
+        <!-- URLコピー -->
+        <button class="share-item" onclick="copyUrl()">
+            URL
+        </button>
+
+    </div>
+</div>
