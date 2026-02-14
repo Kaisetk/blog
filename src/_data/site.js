@@ -1,3 +1,3 @@
 module.exports = {
-  url: "https://otoku-choices.com"
+  url: "https://otoku-choices.com/"
 };
