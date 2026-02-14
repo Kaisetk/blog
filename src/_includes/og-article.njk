@@ -1,6 +1,6 @@
   <!-- OGP -->
   <meta property="og:title" content="{{ title }}">
-  <meta property="og:description" content="{{ intro }}">
+  <meta property="og:description" content="{{ intro | escape }}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -9,5 +9,5 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title }}">
-  <meta name="twitter:description" content="{{ intro }}">
+  <meta name="twitter:description" content="{{ intro | escape }}">
   <meta name="twitter:image" content="{{ site.url }}/images/articles/eyecatches/sns/{{ eyecatch }}">
