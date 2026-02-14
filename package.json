@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "marked": "^15.0.7"
   },
   "devDependencies": {

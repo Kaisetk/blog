@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://otoku-choices.com/sitemap.xml
