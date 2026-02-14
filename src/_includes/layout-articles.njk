@@ -4,7 +4,8 @@
 <head>
   {% include "head.njk" %}
   {% include "og-article.njk" %}
-
+  
+  <link rel="canonical" href="{{site.url}}{{page.url}}">
   <link rel="stylesheet" href="/css/style-grid.css">
   <link rel="stylesheet" href="/css/style-articles.css">
   {% if category %}
