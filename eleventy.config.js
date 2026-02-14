@@ -1,16 +1,9 @@
 // eleventy.config.js
 const { DateTime } = require("luxon");
-const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("robots.txt");
-
-  eleventyConfig.addPlugin(sitemap, {
-    sitemap: {
-      hostname: "https://otoku-choices.com/"
-    }
-  });
 
   eleventyConfig.addFilter("jsonify", function (value) {
     return JSON.stringify(value);
