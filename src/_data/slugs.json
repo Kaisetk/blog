@@ -24,12 +24,11 @@
     { "id": "travel-gear", "name": "旅行グッズ・アイテム" },
 
     { "id": "shopping", "name": "ショッピング・買い物" },
-    { "id": "life-hacks", "name": "ライフハック" },
     { "id": "technology", "name": "テクノロジー・ガジェット" },
     { "id": "app", "name": "アプリ" },
     { "id": "e-commerce", "name": "オンラインショッピング・ECサイト" },
     { "id": "coupon", "name": "クーポン・割引情報" },
-    { "id": "save-money", "name": "節約・お得情報" },
+    { "id": "furusato-nozei", "name": "ふるさと納税" },
     { "id": "saving-money", "name": "貯蓄・資産形成" }
   ]
 }
