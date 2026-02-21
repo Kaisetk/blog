@@ -74,7 +74,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getAll()
       .filter(item => item.data.released) // released がある記事だけ
       .sort((a, b) => new Date(b.data.released) - new Date(a.data.released)) // 新しい順
-      .slice(0, 4) // 先頭4件
+      .slice(0, 6) // 先頭6件
       .map(item => ({
         id: item.fileSlug,
         title: item.data.title,
@@ -83,7 +83,7 @@ module.exports = function (eleventyConfig) {
         tags: item.data.tags,
         intro: item.data.intro,
         date: item.data.date
-      })); // 必要な情報だけ返す
+      }));
   });
 
   const CATEGORY_IDS = ["daily-life", "trip"];

@@ -1,6 +1,6 @@
 ---
 layout: layout-articles.njk
-title: 本ブログサイトの紹介
+title: 「調べて、選んで、トクする暮らし。」ブログサイト紹介
 description: 本サイトのコンセプトや運営者を紹介します。
 needlinks: true
 ---

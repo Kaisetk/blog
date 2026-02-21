@@ -24,8 +24,10 @@
     { "id": "travel-gear", "name": "旅行グッズ・アイテム" },
 
     { "id": "shopping", "name": "ショッピング・買い物" },
-    { "id": "technology", "name": "テクノロジー・ガジェット" },
-    { "id": "app", "name": "アプリ" },
+    { "id": "mobile-fee", "name": "スマホ料金" },
+    { "id": "mobile-sim", "name": "格安SIM" },
+    { "id": "credit-card", "name": "クレジットカード" },
+    { "id": "point", "name": "ポイント・還元" },
     { "id": "e-commerce", "name": "オンラインショッピング・ECサイト" },
     { "id": "coupon", "name": "クーポン・割引情報" },
     { "id": "furusato-nozei", "name": "ふるさと納税" },
