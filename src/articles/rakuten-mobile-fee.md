@@ -19,7 +19,7 @@ related: [online-shopping-smart-choices]
 Rakuten最強プラン契約で、電話かけ放題などのオプションはつけていません。また、筆者は青春割やシニア割引等の適用対象外です。    
 楽天モバイルは、「Rakuten Link」という楽天契約者が使える電話・メッセージアプリから国内通話が無料で使えます。（一部対象外の電話番号あり）その分電話代が節約できることや、もともとの料金設定が安いことで、この料金でスマホが使えています。
 
-<img src="https://otoku-choices.com/images/articles/rakuten-mobile-fee/mobile-fee-history.webp" alt="3GBから20GBであれば家族割110円引きで月2071円でスマホが使えます。" style="max-width:600px; height:auto; width:100%">
+<img src="https://otoku-choices.com/images/articles/rakuten-mobile-fee/mobile-fee-history.webp" alt="3GBから20GBであれば家族割110円引きで月2071円でスマホが使えます。" style="max-width:600px; height:auto;width:100%">
 
 ### この料金の内訳
 - Rakuten最強プラン　3GB - 20GB 税抜 1,980円
@@ -76,11 +76,7 @@ Rakuten最強プラン料金（有料オプションなし）は、以下のよ�
 もちろん楽天経済圏でない人も、スマホの月額支払で楽天ポイントがたまるため、そのポイントを次月のスマホ料金支払いに充てることが可能です。
 
 設定は一度行えば、引き落としの際に自動的にポイントを優先利用して支払うことができます。
-詳しい設定方法はこちらをご確認ください。<a href="https://network.mobile.rakuten.co.jp/guide/point-payment/?tab-list=tab-menu2"
-   target="_blank"
-   rel="noopener noreferrer">
-  楽天ポイント払い設定方法（公式サイト）
-</a>
+詳しい設定方法はこちらをご確認ください。[楽天ポイント払い設定方法| 公式サイト](https://network.mobile.rakuten.co.jp/guide/point-payment/?tab-list=tab-menu2)
 
 2. **契約時にも契約後でも申し込める！最強家族割**(対象者限定)
 
@@ -88,19 +84,10 @@ Rakuten最強プラン料金（有料オプションなし）は、以下のよ�
 家族といっても範囲が広く、同居家族はもちろん、離れて住む家族や親せき、事実婚・同性パートナーも登録できるようです。
 > 筆者自身も、同居家族と離れて住む家族を両方登録しています。
 
-公式サイトは
-<a href="https://network.mobile.rakuten.co.jp/fee/family/?l-id=gnavi_fee_family"
-   target="_blank"
-   rel="noopener noreferrer">
-  こちら
-</a>
+公式サイトは[こちら](https://network.mobile.rakuten.co.jp/fee/family/?l-id=gnavi_fee_family)
 
-登録は、楽天モバイル契約者の代表１人が、グループ登録を行うことで登録されます。詳しい最強家族割の登録方法は、公式サイトの下記ページをご覧ください。
-<a href="https://network.mobile.rakuten.co.jp/guide/family/?l-id=fee_family_target_guide_family"
-   target="_blank"
-   rel="noopener noreferrer">
-  最強家族割設定方法（公式サイト）
-</a>
+登録は、楽天モバイル契約者の代表１人が、グループ登録を行うことで登録されます。詳しい最強家族割の登録方法は、公式サイトの下記ページをご覧ください。  
+[最強家族割設定方法（公式サイト）](https://network.mobile.rakuten.co.jp/guide/family/?l-id=fee_family_target_guide_family)
 
 なお、年齢に応じて申し込むことができるこども割/青春割/シニアプログラムと、最強家族割とは別物です。**青春割やシニアプログラムを申し込んでいる方でも、家族割を申し込むことが可能です。**
 
@@ -109,15 +96,15 @@ Rakuten最強プラン料金（有料オプションなし）は、以下のよ�
 利用者の年齢に応じて**最強こども割/最強青春割/最強シニア割**の登録が可能です。  
 Rakuten最強プラン、Rakuten最強U-NEXTプランのいずれにも適用できます。
 
-- <a href="https://network.mobile.rakuten.co.jp/fee/kids/?l-id=top_fee_kids" target="_blank" rel="noopener noreferrer">最強こども割</a>
+- [最強こども割](https://network.mobile.rakuten.co.jp/fee/kids/?l-id=top_fee_kids)
 
 12歳以下のキッズユーザー向けの利用料割引制度です。どのデータ通信料でも通常料金より安く利用できますが、Rakuten最強プラン3GBまでなら、月々480円（税込528円）で利用でき大変お得です。
 
-- <a href="https://network.mobile.rakuten.co.jp/fee/youth/?l-id=fee_kids_fee_youth" target="_blank" rel="noopener noreferrer">最強青春割</a>
+- [最強青春割](https://network.mobile.rakuten.co.jp/fee/youth/?l-id=fee_kids_fee_youth)
 
 22歳以下のユーザーの月々利用料金が割引される制度です。他のキャリアでいう学割に相当すると思います。月額料金が毎月110円引きになります。
 
-- <a href="https://network.mobile.rakuten.co.jp/fee/senior/?l-id=fee_kids_fee_senior" target="_blank" rel="noopener noreferrer">最強シニアプログラム</a>
+- [最強シニアプログラム](https://network.mobile.rakuten.co.jp/fee/senior/?l-id=fee_kids_fee_senior)
 
 65歳以上のユーザーを対象としたポイントバック制度です。料金の割引ではなく、利用料金のうち一定額を楽天ポイントで還元する制度になっています。
 先述した楽天ポイント払いと併用すると、利用料金が割引されてお得にスマホが利用できるのでおすすめです。
@@ -142,7 +129,7 @@ Rakuten最強プラン、Rakuten最強U-NEXTプランのいずれにも適用で
 
 #### 海外旅行に行く頻度が高い人
 
-他のキャリアや格安モバイルにはなかなかない特典として、楽天モバイルでは106の国と地域(2026年2月現在)で、**海外での高速データ通信が月2GBまで基本料金に含まれています**。（ = 国内の利用分と同様の扱いになります）。<a href="https://network.mobile.rakuten.co.jp/service/global/overseas/?msockid=141ffc3efc7667161e52eaa4fd73667c" target="_blank" rel="noopener noreferrer">詳しくはこちら | 公式サイト</a>
+他のキャリアや格安モバイルにはなかなかない特典として、楽天モバイルでは106の国と地域(2026年2月現在)で、**海外での高速データ通信が月2GBまで基本料金に含まれています**。（ = 国内の利用分と同様の扱いになります）。 [詳しくはこちら | 公式サイト](https://network.mobile.rakuten.co.jp/service/global/overseas/?msockid=141ffc3efc7667161e52eaa4fd73667c)
 　
 通常、海外旅行先でスマホ使うためには、数千円するWi-Fi持参したり、各キャリアでデータを購入したりする必要があります。  
 ですが、楽天モバイルユーザーが対象地域の旅行に行く場合であればその必要がなくなり、費用・準備時間ともに節約できてしまいます。 
@@ -154,7 +141,7 @@ Rakuten最強プラン、Rakuten最強U-NEXTプランのいずれにも適用で
 
 楽天市場や楽天証券、楽天銀行などのサービスを利用している人や、Wi-Fiなどのインフラ系が楽天の場合は、楽天モバイルにするとよりポイント加算が大きくなり、様々な割引やサービスを享受できます。
 
-ECサイトなどを含め、同じ系列のサービスにまとめるメリットは、「<a href="https://otoku-choices.com/articles/online-shopping-smart-choices/" target="_blank">ECサイトの選び方</a>」の記事でも紹介していますので、ご興味あればぜひご覧ください。
+ECサイトなどを含め、同じ系列のサービスにまとめるメリットは、「[ECサイトの選び方](/articles/online-shopping-smart-choices/)」の記事でも紹介していますので、ご興味あればぜひご覧ください。
 
 ### 向いていない人
 
