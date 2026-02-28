@@ -1,5 +1,7 @@
 // eleventy.config.js
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
+const markdownItContainer = require("markdown-it-container");
 
 module.exports = function (eleventyConfig) {
 
@@ -36,10 +38,25 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // Markdown拡張
+  const md = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+
+  // 補足ボックス
+  md.use(markdownItContainer, "note");
+  md.use(markdownItContainer, "point");
+  md.use(markdownItContainer, "caution");
+
+  eleventyConfig.setLibrary("md", md);
+
 
   eleventyConfig.addFilter("jsonify", function (value) {
     return JSON.stringify(value);
   });
+
   // ==========================
   // 静的ファイルコピー
   // ==========================

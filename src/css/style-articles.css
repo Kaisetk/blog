@@ -1,6 +1,7 @@
 /* ============================================================
-   記事ヘッダー全体
+   01. 記事ヘッダー
 ============================================================ */
+
 .article-header {
   text-align: left;
   margin: 1.6rem 0;
@@ -24,9 +25,8 @@
   margin-right: 1rem;
 }
 
-/* ============================================================
-   アイキャッチ画像とイントロ
-============================================================ */
+/* アイキャッチ + イントロ */
+
 .article_intro {
   display: block;
   font-size: 1.05rem;
@@ -35,7 +35,6 @@
   margin-top: 0.8rem;
 }
 
-/* アイキャッチ画像 */
 .article-header + img {
   width: 100%;
   height: auto;
@@ -46,8 +45,9 @@
 }
 
 /* ============================================================
-   横並びレイアウト（PC向け）
+   02. ビジュアル横並び（PC）
 ============================================================ */
+
 @media (min-width: 900px) {
   .article-visual-block {
     display: flex;
@@ -71,53 +71,81 @@
     line-height: 1.9;
   }
 
-  /* 💡 画像が無い場合は文字を横いっぱいに広げる */
   .article-visual-block:not(:has(img)) .article_intro {
     width: 100%;
   }
 }
 
-
 /* ============================================================
-   目次
+   03. 目次
 ============================================================ */
+
 .toc {
-  margin: 0.8rem 0;
-  padding: 1rem;
+  margin: 1.2rem 0;
+  padding: 1.2rem 1.2rem 1.2rem 1rem;
   background: #f9fafb;
-  border-radius: 6px;
+  border-radius: 8px;
+  border: 1px solid #eee;
 }
 
 .toc h2 {
   font-size: 1.2rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
+  padding-left: 0.6rem;
   border-left: 4px solid #00796b;
-  padding-left: 10px;
+  color: #333;
 }
 
 .toc ul {
   list-style: none;
-  padding-left: 10px;
   margin: 0;
+  padding-left: 1rem;
+  border-left: 2px solid #e5e7eb;
 }
 
 .toc li {
-  margin: 0.4rem 0;
+  margin: 0.35rem 0;
+  padding-left: 0.6rem;
+  line-height: 1.6;
 }
 
 .toc a {
-  color: #00796b;
-  text-decoration: none;
-  transition: color 0.2s;
+  display: block;
+  color: #374151;
+  text-decoration: underline;
+  text-decoration-color: rgba(0,121,107,0.35);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  border-radius: 4px;
+  padding: 0.15rem 0.3rem;
+  transition: all 0.15s ease;
 }
 
 .toc a:hover {
-  text-decoration: underline;
+  color: #00796b;
+  background: rgba(0,121,107,0.08);
+}
+
+.toc ul ul {
+  border-left: none;
+  padding-left: 1rem;
+  margin-top: 0.2rem;
+}
+
+.toc ul ul a {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.toc a.active {
+  color: #00796b;
+  font-weight: 600;
 }
 
 /* ============================================================
-   記事本文
+   04. 記事本文 基本
 ============================================================ */
+
 #article-content {
   font-size: 1rem;
   line-height: 1.75;
@@ -125,36 +153,66 @@
   padding-bottom: 20px;
 }
 
-/* 見出し */
-#article-content h2 {
-  font-size: 1.5rem;
-  margin: 2rem 0 1rem;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 0.3rem;
-}
-
-#article-content h3 {
-  font-size: 1.3rem;
-  margin: 1.5rem 0 0.8rem;
-}
-
-/* 段落 */
 #article-content p {
   margin-bottom: 1rem;
 }
 
+#article-content strong {
+  font-weight: 600;
+  color: inherit;
+  background: linear-gradient(transparent 60%, rgba(0,121,107,0.18) 0);
+}
+
+/* 見出し */
+
+#article-content h2 {
+  font-size: 1.5rem;
+  margin: 2.2rem 0 1.2rem;
+  padding: 10px 14px;
+  background: #e0f2f1;
+  border-left: 5px solid #00796b;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+
+#article-content h3 {
+  font-size: 1.25rem;
+  margin: 1.8rem 0 0.8rem;
+  padding-left: 10px;
+  border-left: 3px solid #00796b;
+  color: #333;
+  font-weight: 600;
+}
+
+#article-content h4 {
+  font-size: 1rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
+/* 強調（h4相当） */
+.em-strong {
+  font-size: 1rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
 /* リンク */
+
 #article-content a {
   color: #00796b;
-  text-decoration: underline;
-  transition: color 0.2s;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,121,107,0.4);
 }
 
 #article-content a:hover {
-  color: #00564d;
+  border-bottom: 1px solid #00796b;
 }
 
-/* 画像 */
 #article-content img {
   max-width: 100%;
   height: auto;
@@ -162,40 +220,180 @@
   margin: 1.5rem auto;
   border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  object-fit: cover;
 }
 
-/* 引用 */
-#article-content blockquote {
-  border-left: 4px solid #00796b;
-  padding-left: 1rem;
-  margin: 1rem 0;
-  color: #555;
-  font-style: italic;
-  background: #f5f5f5;
-  border-radius: 4px;
+@media (min-width: 900px) {
+  #article-content img {
+    max-width: 720px;
+    max-height: 70vh;
+  }
 }
 
-/* リスト */
+/* ==========================================================
+   リスト（Article Content）
+========================================================== */
+
+/* ---------- リスト全体 ---------- */
+
 #article-content ul,
 #article-content ol {
-  margin: 0.8rem 0;
-  padding-left: 2rem;
+  margin: 1rem 0;
+  padding-left: 1.8rem;
 }
 
 #article-content li {
-  margin-bottom: 0.3rem;
-  line-height: 1.6;
+  margin-bottom: 0.45rem;
+  line-height: 1.7;
 }
 
-/* ドットや数字だけ色とサイズ調整 */
+/* ---------- リストタイプ ---------- */
+
+#article-content ul {
+  list-style: disc;
+}
+
+/* ---------- マーカー ---------- */
+
 #article-content ul li::marker,
 #article-content ol li::marker {
   color: #00796b;
-  font-size: 1.2em;
+  font-size: 0.9em;
+  opacity: 0.85;
 }
 
-/* コードブロック */
+/* ---------- ネスト（階層リスト） ---------- */
+
+#article-content li ul,
+#article-content li ol {
+  margin-top: 0.3rem;
+}
+
+/* ============================================================
+   05. 引用
+============================================================ */
+
+#article-content blockquote {
+  margin: 1.6rem 0;
+  padding: 14px 18px;
+  background: #f9fafb;
+  border-radius: 10px;
+  border-left: 3px solid rgba(0,121,107,0.4);
+  color: #444;
+  font-style: normal;
+  position: relative;
+}
+
+#article-content blockquote::before {
+  content: "“";
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  font-size: 2.4rem;
+  color: rgba(0,0,0,0.08);
+  font-family: serif;
+}
+
+#article-content blockquote p {
+  margin: 0.5rem 0;
+}
+
+/* ============================================================
+   06. 情報カード（note / point / caution）
+============================================================ */
+
+.note,
+.point,
+.caution {
+  margin: 1.8rem 0;
+  padding: 18px 20px;
+  border-radius: 14px;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.note p,
+.point p,
+.caution p {
+  margin: 0.6rem 0;
+}
+
+/* POINT */
+
+.point {
+  background: linear-gradient(#fff, #f0fdfa);
+}
+
+.point::before {
+  content: "POINT";
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #00796b;
+  margin-bottom: 8px;
+}
+
+.point::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: #00796b;
+}
+
+/* NOTE */
+
+.note {
+  background: linear-gradient(#fff, #f9fafb);
+}
+
+.note::before {
+  content: "NOTE";
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+/* CAUTION */
+
+.caution {
+  background: #fafafa; /* ほぼ白グレー */
+  border: 1px solid #eee;
+}
+
+.caution::before {
+  content: "CAUTION";
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #f59e0b;
+  margin-bottom: 8px;
+}
+
+.caution::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: #f59e0b;
+}
+
+/* ============================================================
+   07. コード
+============================================================ */
+
 #article-content pre {
   background: #272822;
   color: #f8f8f2;
@@ -214,9 +412,11 @@
   font-family: monospace;
   font-size: 0.9rem;
 }
+
 /* ============================================================
-   著者情報
+   08. 著者情報
 ============================================================ */
+
 .author-box {
   margin-top: 40px;
   padding: 16px 18px;
@@ -232,7 +432,13 @@
   font-size: 16px;
 }
 
-/* ===== 汎用シェア ===== */
+.author-box a {
+  color: #00796b;
+}
+
+/* ============================================================
+   09. シェアUI
+============================================================ */
 
 .share {
   display: flex;
@@ -251,6 +457,48 @@
   display: flex;
   gap: 8px;
 }
+
+/* ボタン */
+
+.share-item {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 20px;
+  border: 1px solid #e3e3e3;
+  background: transparent;
+  text-decoration: none;
+  color: #444;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.share-item:hover {
+  border-color: #bbb;
+}
+
+.share-item[href*="twitter"]:hover {
+  background: #f5f8ff;
+  border-color: #000;
+  color: #000;
+}
+
+.share-item[href*="line.me"]:hover {
+  background: #f2fff5;
+  border-color: #06c755;
+  color: #06c755;
+}
+
+.share-item[type="button"],
+.share-item:not([href]) {
+  background: #fafafa;
+}
+
+.share-item[type="button"]:hover,
+.share-item:not([href]):hover {
+  background: #f0f0f0;
+}
+
+/* トースト */
 
 .toast {
   position: fixed;
@@ -273,70 +521,11 @@
   transform: translateX(-50%) translateY(0);
 }
 
-/* 共通ボタン */
-.share-item {
-  padding: 6px 12px;
-  font-size: 0.85rem;
-  border-radius: 20px;
-  border: 1px solid #e3e3e3;
-  background: transparent;
-  text-decoration: none;
-  color: #444;
-  cursor: pointer;
-  transition: all 0.18s ease;
-}
-
-/* hover共通 */
-.share-item:hover {
-  border-color: #bbb;
-}
-
-/* ===== X ===== */
-
-.share-item[href*="twitter"] {
-  border-color: #e5e7eb;
-}
-
-.share-item[href*="twitter"]:hover {
-  background: #f5f8ff;
-  border-color: #000;
-  color: #000;
-}
-
-/* ===== LINE ===== */
-
-.share-item[href*="line.me"] {
-  border-color: #e5e7eb;
-}
-
-.share-item[href*="line.me"]:hover {
-  background: #f2fff5;
-  border-color: #06c755;
-  color: #06c755;
-}
-
-/* ===== URLコピー ===== */
-
-.share-item[type="button"],
-.share-item:not([href]) {
-  background: #fafafa;
-}
-
-.share-item[type="button"]:hover,
-.share-item:not([href]):hover {
-  background: #f0f0f0;
-}
-
-
 /* ============================================================
-   レスポンシブ調整
+   10. レスポンシブ
 ============================================================ */
-@media (max-width: 768px) {
-  #article-content h2 {
-    font-size: 1.3rem;
-  }
 
-  #article-content h3 {
-    font-size: 1.15rem;
-  }
+@media (max-width: 768px) {
+  #article-content h2 { font-size: 1.3rem; }
+  #article-content h3 { font-size: 1.15rem; }
 }
