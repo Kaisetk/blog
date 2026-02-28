@@ -198,12 +198,13 @@ main { padding-top: var(--header-h); }
 /* ======================================
    フッター
 ====================================== */
+
 .site_footer {
   background: var(--color-header-footer);
   color: white;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 40px 20px;
+  margin-top: 60px;
   flex-shrink: 0;
 }
 
