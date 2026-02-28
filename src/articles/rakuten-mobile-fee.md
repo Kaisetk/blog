@@ -1,6 +1,6 @@
 ---
 layout: layout-articles.njk
-title: 楽天モバイルは本当に安い？実際の料金・メリット・デメリット[2026年]
+title: 楽天モバイルは本当に安い？実際の料金・メリット・デメリット[2026年最新]
 eyecatch: smartphone.webp
 date: 2026-02-22
 released: 2026-02-22

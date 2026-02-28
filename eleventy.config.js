@@ -5,6 +5,38 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("robots.txt");
 
+  eleventyConfig.addTransform("externalLinksAuto", function (content) {
+    if (!this.page.outputPath || !this.page.outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    const myDomain = "otoku-choices.com";
+
+    return content.replace(/<a\s+([^>]*href="([^"]+)"[^>]*)>/gi, (match, attrs, href) => {
+      // http以外は無視
+      if (!href.startsWith("http")) return match;
+
+      // 内部リンク無視
+      if (href.includes(myDomain)) return match;
+
+      // relが既にある → 完全スルー
+      if (attrs.includes("rel=")) return match;
+
+      let newAttrs = attrs;
+
+      // targetが無ければ追加
+      if (!attrs.includes("target=")) {
+        newAttrs += ' target="_blank"';
+      }
+
+      // rel追加
+      newAttrs += ' rel="nofollow noopener noreferrer"';
+
+      return `<a ${newAttrs}>`;
+    });
+  });
+
+
   eleventyConfig.addFilter("jsonify", function (value) {
     return JSON.stringify(value);
   });

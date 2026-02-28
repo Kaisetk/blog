@@ -1,0 +1,16 @@
+.contact-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #00796b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.contact-button:hover {
+  background: #00695c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
