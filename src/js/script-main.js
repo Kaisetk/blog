@@ -42,19 +42,12 @@ function initHeaderScroll() {
   let lastScrollY = window.scrollY;
   window.addEventListener("scroll", () => {
 
-    const isMobile = window.matchMedia('(max-width: 768px)').matches;
-
-    if (isMobile) {
-      // スマホのときだけヘッダーを隠す
-      if (window.scrollY > lastScrollY) {
-        header.classList.add('hide');
-      } else {
-        header.classList.remove('hide');
-      }
+    if (window.scrollY > lastScrollY) {
+      header.classList.add('hide');
     } else {
-      // PC・タブレットでは常に表示
       header.classList.remove('hide');
     }
+
     lastScrollY = window.scrollY;
   });
 }

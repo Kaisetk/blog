@@ -4,10 +4,10 @@
 :root {
   --color-bg: #fff;
   --color-text: #333;
-  --color-primary: #1a73e8;
-  --color-primary-hover: #e3f2fd;
+  --color-link: #1a73e8;
+  --color-link-hover: #e3f2fd;
   --color-accent: #e2c82f;
-  --color-header-footer: #333;
+  --color-header-footer: #0a574e;
   --color-breadcrumb: gray;
   --color-breadcrumb-sep: lightgray;
 }
@@ -43,14 +43,14 @@ img {
 ====================================== */
 main a {
   font-weight: 500;
-  color: var(--color-primary);
+  color: var(--color-link);
   text-decoration: none;
   border-radius: 8px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 main a:hover {
-  background-color: var(--color-primary-hover);
+  background-color: var(--color-link-hover);
   transform: translateY(-2px);
 }
 
@@ -113,6 +113,7 @@ main { padding-top: var(--header-h); }
   z-index: 1000;
   box-sizing: border-box;
   flex-shrink: 0;
+  opacity: 0.9;
 }
 
 .site_header.hide {
@@ -170,7 +171,7 @@ main { padding-top: var(--header-h); }
     display: none;
     flex-direction: column;
     gap: 10px;
-    background: #444;
+    background: #005c42;
     padding: 15px;
     margin: 0 10px 0 0;
     position: absolute;
@@ -179,7 +180,6 @@ main { padding-top: var(--header-h); }
     width: 150px;
     border-radius: 0.5rem;
     box-sizing: border-box;
-    opacity: 0.95;
   }
 
   .nav-links a {
