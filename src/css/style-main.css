@@ -211,6 +211,7 @@ main { padding-top: var(--header-h); }
 .site_footer .footer-links {
   margin: 1rem 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
 }
