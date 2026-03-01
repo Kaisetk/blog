@@ -7,9 +7,11 @@
   --color-link: #1a73e8;
   --color-link-hover: #e3f2fd;
   --color-accent: #e2c82f;
-  --color-header-footer: #0a574e;
+  --color-header-footer: #fff;
   --color-breadcrumb: gray;
   --color-breadcrumb-sep: lightgray;
+  --color-header-footer-link: #424141;
+  --color-bland:#1f6f5e;
 }
 
 /* ======================================
@@ -66,7 +68,7 @@ main a:hover {
 main {
   flex: 1 0 auto;
   padding: 1em;
-  margin-top: 50px;
+  margin-top: 8px;
 }
 
 @media (min-width: 768px) {
@@ -83,44 +85,74 @@ main {
 }
 
 /* ======================================
-   共通：ヘッダー高さを変数化
+   共通：高さ管理
 ====================================== */
 :root {
-  --header-h: 64px; /* PCのヘッダーおおよそ高さ（padding込み想定） */
+  --header-h: 64px;
+  --topmsg-h: 44px; /* ← top_message高さ */
 }
 
-/* 固定ヘッダー下のコンテンツずれ防止（なければ追加） */
-main { padding-top: var(--header-h); }
-
-/* モバイルは少し低く */
+/* モバイル */
 @media (max-width: 768px) {
-  :root { --header-h: 56px; }
-  main { padding-top: var(--header-h); }
+  :root {
+    --header-h: 56px;
+    --topmsg-h: 52px; /* スマホは2行想定で少し高く */
+  }
 }
 
 /* ======================================
-   ヘッダー
+   固定ヘッダー
 ====================================== */
 .site_header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: var(--header-h);
+
   background: var(--color-header-footer);
-  color:var(--color-bg);
-  padding: 10px 20px;
-  transition: transform 0.3s ease;
+  color: var(--color-bg);
+
+  padding: 0; /* ← ここ変更 */
   z-index: 1000;
   box-sizing: border-box;
-  flex-shrink: 0;
   opacity: 0.9;
 }
+
+/* ======================================
+   ヘッダー直下メッセージ
+====================================== */
+.top_message {
+  margin-top: var(--header-h); /* ← header分下げる */
+  min-height: var(--topmsg-h);
+
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+
+  background: #f6fbf9;
+  color: var(--color-bland);
+
+  border-top: 3px solid var(--color-bland);
+  border-bottom: 1px solid #e0e0e0;
+
+  box-sizing: border-box;
+}
+
+/* ======================================
+   本文（header + message 分ずらす）
+====================================== */
 
 .site_header.hide {
   transform: translateY(-100%);
 }
 
 .navbar {
+  height: var(--header-h); /* ← headerと同じ高さ */
+  padding: 0 20px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -133,8 +165,8 @@ main { padding-top: var(--header-h); }
   line-height: 1;
 }
 .logo img {
-  display: block;           /* 下の行ボックス余白を消す */
-  height: 48px;             /* ここを変えるとロゴの高さが一括で揃う */
+  display: block;
+  height: 48px; 
   width: auto;
 }
 
@@ -148,7 +180,8 @@ main { padding-top: var(--header-h); }
 
 .nav-links a,
 .site_footer a {
-  color: #fff;
+  color: var(--color-header-footer-link);
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -161,8 +194,24 @@ main { padding-top: var(--header-h); }
   display: none;
   background: none;
   border: none;
-  color: #fff;
+  color: var(--color-header-footer-link);
   font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.top_message {
+  margin-top: var(--header-h);
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: center;
+  background: #f6fbf9;
+  color: var(--color-bland);
+  border-top: 3px solid var(--color-bland);
+  border-bottom: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  word-break: break-word;
 }
 
 /* モバイルナビ */
@@ -171,7 +220,7 @@ main { padding-top: var(--header-h); }
     display: none;
     flex-direction: column;
     gap: 10px;
-    background: #005c42;
+    background: var(--color-bg);
     padding: 15px;
     margin: 0 10px 0 0;
     position: absolute;
@@ -201,7 +250,7 @@ main { padding-top: var(--header-h); }
 
 .site_footer {
   background: var(--color-header-footer);
-  color: white;
+  color: var(--color-header-footer-link);
   text-align: center;
   padding: 40px 20px;
   margin-top: 60px;
@@ -263,7 +312,7 @@ main { padding-top: var(--header-h); }
 #loading {
   position: fixed;
   inset: 0;
-  background: #fff;
+  background: var(--color-bg);
   display: flex;
   flex-direction: column;
   justify-content: center;

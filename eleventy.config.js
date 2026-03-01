@@ -209,9 +209,9 @@ module.exports = function (eleventyConfig) {
   // ==========================
   eleventyConfig.addGlobalData("site", {
     url: "https://otoku-choices.com",
-    name: "調べて、選んで、トクする暮らし。",            // サイト名
+    name: "Otoku Choices",            // サイト名
     author: "Kai",
-    description: "少しでもお得に、日常・非日常を楽しめるライフハックを発信するブログです。"
+    description: "賢く選んで暮らしと旅行をおトクにする、戦略的ライフハックブログです。"
   });
 
   // ==========================
