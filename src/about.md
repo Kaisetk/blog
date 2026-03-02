@@ -1,7 +1,7 @@
 ---
 layout: layout-articles.njk
-title: サイト紹介
-description: 本サイトのコンセプトや運営者を紹介します。
+title: Otoku Choices ブログ紹介
+description: 本サイトOtoku Choices(オトクチョイス) は、賢く選んで暮らしも旅行もおトクにする、戦略的ライフハックブログです。少しでもお得に、日常もお出かけも楽しめる節約術を発信しています。
 needlinks: true
 ---
 
