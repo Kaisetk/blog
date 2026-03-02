@@ -22,7 +22,7 @@ addCss: style-contact
 
 記事のご感想や簡単なご連絡は、SNS(X)でも受け付けています。
 
-<a href="https://x.com/setk_by_Kai" class="contact-button">X（旧Twitter）はこちら</a>
+<a href="https://x.com/otoku_choices/" class="contact-button">X（旧Twitter）はこちら</a>
 
 ## 以下のような内容をお待ちしています
 
