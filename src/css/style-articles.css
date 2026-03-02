@@ -529,3 +529,45 @@
   #article-content h2 { font-size: 1.3rem; }
   #article-content h3 { font-size: 1.15rem; }
 }
+
+/* ============================================================
+   11. モーションヴィジェット
+============================================================ */
+
+/* ===== 広告エリア全体 ===== */
+.ad-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+/* ===== 広告ラベル ===== */
+.ad-notice {
+  display: inline-block;
+  font-size: 12px;
+  color: #777;
+  border: 1px solid #ddd;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  background: #fafafa;
+}
+
+/* ===== 初期：スマホだけ表示 ===== */
+.widget-pc-tablet {
+  display: none;
+}
+
+.widget-sp {
+  display: block;
+}
+
+/* ===== 768px以上 → PC・タブレット表示 ===== */
+@media (min-width: 768px) {
+  .widget-pc-tablet {
+    display: block;
+  }
+
+  .widget-sp {
+    display: none;
+  }
+}
