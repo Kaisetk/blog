@@ -5,16 +5,19 @@
 <title id="tabtitle">{{ title }}</title>
 <link rel="stylesheet" href="/css/style-main.css">
 <link rel="stylesheet" href="/css/style-marks.css">
-{% if addCss %} <link rel="stylesheet" href="/css/{{ addCss | escape }}.css">{% endif %}
+{% if addCss %}
+<link rel="stylesheet" href="/css/{{ addCss | escape }}.css">{% endif %}
 <link rel="icon" href="/images/favicon/favicon.svg" type="image/svg+xml">
 <script src="/js/script-main.js" defer></script>
 
+{% if eleventy.env.environment == "production" %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTMWK3EEDE"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-JTMWK3EEDE');
 </script>
+{% endif %}
