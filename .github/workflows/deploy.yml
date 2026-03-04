@@ -26,6 +26,8 @@ jobs:
 
       - run: npm ci
       - run: npx @11ty/eleventy
+        env:
+          ELEVENTY_ENV: production
 
       - uses: actions/upload-pages-artifact@v3
         with:
