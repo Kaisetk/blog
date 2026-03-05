@@ -7,8 +7,8 @@ released: 2026-03-05
 category: daily-life
 tags: [shopping, e-commerce]
 doesContainAds: true
-intro: 読書や漫画が趣味の方、学業やスキルアップに励む方の中には、「本の購入費用が高い…」と感じている方も多いのではないでしょうか。本屋さんで日常的に書籍を購入していると、気づけば毎月の出費がかさんでしまいますよね。しかし、読む頻度を減らさずに本を安く買う方法は、電子書籍・ポイント還元・中古購入・図書館利用など意外と多くあります。この記事では、本や漫画が好きで実際にさまざまな方法を試してきた筆者が、無理なく実践できる本代節約術をご紹介します。
-related: [online-shopping-smart-choices]
+intro: 読書や漫画が趣味の方、学業やスキルアップのために教材や参考書を購入している方の中には、「本の購入費用が高い…」と感じている方も多いのではないでしょうか。本屋さんで日常的に書籍を購入していると、気づけば毎月の出費がかさんでしまいますよね。しかし、読む頻度を減らさずに本を安く買う方法は、電子書籍・ポイント還元・中古購入・図書館利用など意外と多くあります。この記事では、本や漫画が好きで実際にさまざまな方法を試してきた筆者が、無理なく実践できる本代節約術をご紹介します。
+related: [online-shopping-smart-choices, rakuten-mobile-fee]
 
 ---
 
@@ -73,7 +73,7 @@ related: [online-shopping-smart-choices]
 
 ## オンラインショップのポイント還元・キャンペーンを活用する
 
-紙の書籍は基本的に定価販売ですが、**オンラインショップのポイント還元を活用すれば実質的に安く購入**できます。
+紙の書籍は基本的に定価販売ですが、**オンラインショップのポイント還元を活用すれば実質的に安く購入できます**。紙の書籍が好きな方や、参考書・教材などを安く買いたい方におすすめの方法です。
 
 たとえば、Amazonや <a href="https://hb.afl.rakuten.co.jp/hsc/518627dc.0921385b.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoibmFtZSIsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天ブックス</a>では、定期的にポイントアップキャンペーンが開催されています。
 
@@ -90,9 +90,9 @@ related: [online-shopping-smart-choices]
 こうした工夫をすることで、実質5〜10％以上安くなることもあります。
 
 例えば1,500円の本を10％還元で購入できれば、実質150円安く購入できるのと同じです。
-これを積み重ねると、年間では意外と大きな差になります。
+これを積み重ねると、年間では意外と大きな差になります。  
 
-以下バナーからわかるように、初回キャンペーンだともっと安くなることも多いです。
+**初回キャンペーン**だと、特別クーポンが付与されてもっと安くなったり、<a href="https://hb.afl.rakuten.co.jp/hsc/518627dc.0921385b.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoibmFtZSIsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天ブックス</a>の以下バナーにもあるようにさらにポイントアップすることも多いです。
 
 <a href="https://hb.afl.rakuten.co.jp/hsc/517c9eb1.1d4dbca7.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOiIxNSIsImJhbiI6MzI3NDc1NCwiYW1wIjpmYWxzZX0%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hsb/517c9eb1.1d4dbca7.50d25d06.088b928e/?me_id=1213310&me_adv_id=3274754&t=pict" border="0" style="margin:2px" alt="" title=""></a>
 
@@ -121,14 +121,14 @@ related: [online-shopping-smart-choices]
 図書館で借りるのが難しい漫画や雑誌を大量に読む方であれば、読み放題サービスも選択肢になります。  
 月に数冊しか読まない場合は割高になることもありますが、「毎日読む」「通勤通学で消費する」という方には向いています。
 
-自分の読書量と月額料金を比較して判断することが重要です。
+**自分の読書量と月額料金を比較して判断**することが重要です。
 
 一例としては、雑誌が月額一定料金で読み放題になる<a href="https://hb.afl.rakuten.co.jp/hsc/517d8a82.a6682e83.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天マガジン</a>などです。雑誌に限らず、漫画、特定の出版社が出版する教材も、サブスク形式で配信されていることがあります。興味があれば是非調べてみてください。
 
 
 ## 不要になった本を販売する
 
-読み終えた本をフリマアプリなどで販売すれば、実質的な購入費を回収できます。
+読み終えた本をフリマアプリなどで販売すれば、**実質的な購入費を回収**できます。
 
 例えば1,600円の本を1,000円で売れれば、実質600円で読めた計算になります。
 
@@ -137,7 +137,7 @@ related: [online-shopping-smart-choices]
 :::note
 筆者は、特に図書館で借りにくい教材系を、メルカリに出品して販売しています。  
 筆者の場合、本にもよりますが、送料手数料等差し引いても販売価格の約20-30%程度回収できることが多いです。
-リサイクルショップの実店舗に持っていくこともできますが、ほとんど利益が出ないので、購入費を少しでも回収することを考えるのであればフリマアプリをおすすめします。
+リサイクルショップの実店舗に持っていくこともできますが、ほとんど利益が出ないので、**購入費を少しでも回収することを考えるのであればフリマアプリをおすすめします**。
 :::
 
 ## まとめ
