@@ -23,11 +23,9 @@
   flex-direction: column;
   background: #fff;
   border-radius: 12px;
+  border: 1px solid #eee;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .article_card .card:hover {
@@ -109,7 +107,7 @@
 
 .card-footer .category {
   font-weight: 600;
-  color: #00796b;
+  color: var(--color-bland);
 }
 
 .card-footer .tags {

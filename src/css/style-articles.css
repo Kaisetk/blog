@@ -11,7 +11,7 @@
   font-size: 2rem;
   font-weight: 700;
   margin: 0.8rem 0;
-  color: #111;
+  color: var(--color-text);
 }
 
 .article-meta {
@@ -31,7 +31,7 @@
   display: block;
   font-size: 1.05rem;
   line-height: 1.8;
-  color: #333;
+  color: var(--color-text);
   margin-top: 0.8rem;
 }
 
@@ -92,8 +92,8 @@
   font-size: 1.2rem;
   margin-bottom: 0.8rem;
   padding-left: 0.6rem;
-  border-left: 4px solid #00796b;
-  color: #333;
+  border-left: 4px solid var(--color-bland);
+  color: var(--color-text);
 }
 
 .toc ul {
@@ -113,7 +113,7 @@
   display: block;
   color: #374151;
   text-decoration: underline;
-  text-decoration-color: rgba(0,121,107,0.35);
+  text-decoration-color: var(--color-bland-soft);
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
   border-radius: 4px;
@@ -122,8 +122,8 @@
 }
 
 .toc a:hover {
-  color: #00796b;
-  background: rgba(0,121,107,0.08);
+  color: var(--color-bland);
+  background: var(--color-bland-soft);
 }
 
 .toc ul ul {
@@ -138,7 +138,7 @@
 }
 
 .toc a.active {
-  color: #00796b;
+  color: var(--color-bland);
   font-weight: 600;
 }
 
@@ -149,7 +149,7 @@
 #article-content {
   font-size: 1rem;
   line-height: 1.75;
-  color: #333;
+  color: var(--color-text);
   padding-bottom: 20px;
 }
 
@@ -160,7 +160,7 @@
 #article-content strong {
   font-weight: 600;
   color: inherit;
-  background: linear-gradient(transparent 60%, rgba(0,121,107,0.18) 0);
+  background: linear-gradient(transparent 60%, var(--color-bland-soft2) 0);
 }
 
 /* 見出し */
@@ -169,8 +169,8 @@
   font-size: 1.5rem;
   margin: 2.2rem 0 1.2rem;
   padding: 10px 14px;
-  background: #e0f2f1;
-  border-left: 5px solid #00796b;
+  background: var(--color-bland-soft);
+  border-left: 5px solid var(--color-bland);
   border-radius: 6px;
   line-height: 1.4;
 }
@@ -179,8 +179,8 @@
   font-size: 1.25rem;
   margin: 1.8rem 0 0.8rem;
   padding-left: 10px;
-  border-left: 3px solid #00796b;
-  color: #333;
+  border-left: 3px solid var(--color-bland);
+  color: var(--color-text);
   font-weight: 600;
 }
 
@@ -204,13 +204,9 @@
 /* リンク */
 
 #article-content a {
-  color: #00796b;
+  color: var(--color-bland);
   text-decoration: none;
-  border-bottom: 1px solid rgba(0,121,107,0.4);
-}
-
-#article-content a:hover {
-  border-bottom: 1px solid #00796b;
+  border-bottom: 1px solid var(--color-bland-soft2);
 }
 
 #article-content img {
@@ -256,7 +252,7 @@
 
 #article-content ul li::marker,
 #article-content ol li::marker {
-  color: #00796b;
+  color: var(--color-bland);
   font-size: 0.9em;
   opacity: 0.85;
 }
@@ -277,7 +273,7 @@
   padding: 14px 18px;
   background: #f9fafb;
   border-radius: 10px;
-  border-left: 3px solid rgba(0,121,107,0.4);
+  border-left: 3px solid var(--color-bland-mid);
   color: #444;
   font-style: normal;
   position: relative;
@@ -418,22 +414,57 @@
 ============================================================ */
 
 .author-box {
-  margin-top: 40px;
-  padding: 16px 18px;
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
-  background: #fafafa;
-  font-size: 14px;
-  line-height: 1.7;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+
+  padding: 1.3rem;
+  margin: 2.5rem 0;
+
+  background: var(--color-bland-light);
+  border-radius: 10px;
+  border: 1px solid #e6ecea;
 }
 
-.author-box h3 {
-  margin: 0 0 8px;
-  font-size: 16px;
+/* アイコン */
+.author-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
-.author-box a {
-  color: #00796b;
+/* 情報 */
+
+.author-info h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1rem;
+  color: var(--color-bland);
+}
+
+.author-name {
+  font-weight: 600;
+  margin: 0.2rem 0 0.4rem;
+}
+
+.author-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.author-link {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--color-bland);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.author-link:hover {
+  text-decoration: underline;
 }
 
 /* ============================================================
@@ -505,8 +536,8 @@
   bottom: 24px;
   left: 50%;
   transform: translateX(-50%) translateY(20px);
-  background: #333;
-  color: #fff;
+  background: var(--color-text);
+  color: var(--color-bg);
   padding: 12px 18px;
   border-radius: 8px;
   font-size: 14px;
