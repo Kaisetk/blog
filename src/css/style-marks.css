@@ -1,3 +1,20 @@
+/* ======================================
+   変数 (カラーテーマ)
+====================================== */
+:root {
+  --color-bg: #fff;
+  --color-text: #333;
+  --color-link: #1a73e8;
+  --color-link-hover: #e3f2fd;
+  --color-accent: #e2c82f;
+  --color-header-footer: #fff;
+  --color-breadcrumb: gray;
+  --color-breadcrumb-sep: lightgray;
+  --color-header-footer-link: #424141;
+  --color-bland:#1f6f5e;
+  --color-bland-light: #f6fbf9;
+}
+
 .tags a {
   display: inline-block;
   padding: 4px 12px;
@@ -5,14 +22,14 @@
   background-color: #f0f0f0;
   border-radius: 20px;
   text-decoration: none;
-  color: #333;
+  color: var(--color-text);
   font-size: 0.9rem;
   transition: all 0.2s ease;
 }
 
 .tags a:hover {
-  background-color: #d1e7ff;
-  color: #0066cc;
+  background-color: var(--color-link-hover);
+  color: var(--color-link);
 }
 
 .category-link {
@@ -22,7 +39,7 @@
   background-color: #e0f7fa;
   border-radius: 6px;
   text-decoration: none;
-  color: #00796b;
+  color: var(--color-bland);
   font-weight: 500;
   transition: all 0.2s;
 }
@@ -36,15 +53,15 @@
 }
 
 .search-suggestions h3 {
-  
+  color: var(--color-header-footer-link);
   margin-bottom: 0.5em;
   font-size: 1.2em;
-  border-left: 4px solid #333;
+  border-left: 4px solid var(--color-header-footer-link);
   padding-left: 0.5em;
 }
 
 .search-suggestions h4 {
   margin: 1em 0 0.5em;
   font-size: 1em;
-  color: #555;
+  color: var(--color-text);
 }

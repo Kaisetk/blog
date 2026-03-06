@@ -12,6 +12,7 @@
   --color-breadcrumb-sep: lightgray;
   --color-header-footer-link: #424141;
   --color-bland:#1f6f5e;
+  --color-bland-light: #f6fbf9;
 }
 
 /* ======================================
@@ -132,7 +133,7 @@ main {
   line-height: 1.4;
   text-align: center;
 
-  background: #f6fbf9;
+  background: var(--color-bland-light);
   color: var(--color-bland);
 
   border-top: 3px solid var(--color-bland);
@@ -273,10 +274,10 @@ main {
 }
 
 .footer-logo img {
-  height: 32px;   /* ← ヘッダーより少し小さめに：雰囲気揃える */
+  height: 32px;
   width: auto;
-  display: block; /* 行ボックスの下余白を消す */
-  opacity: 0.9;   /* 少し落ち着かせる（任意） */
+  display: block;
+  opacity: 0.9;
 }
 
 /* ======================================
@@ -331,4 +332,13 @@ main {
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+}
+
+/* ======================================
+   タイトルスタイル
+====================================== */
+.contents-title {
+  color:var(--color-header-footer-link);
+  border-left:4px solid var(--color-header-footer-link); 
+  padding-left:10px;
 }

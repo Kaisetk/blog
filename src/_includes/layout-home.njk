@@ -35,7 +35,7 @@
       <!--コンテンツ-->
       {{ content | safe }}
 
-      <h3 style="color:#424141; border-left:4px solid #424141; padding-left:10px;">新着記事</h3>
+      <h3 class="contents-title">新着記事</h3>
       <ul id="latest-articles" class="articles_list">
         {% for article in collections.latestArticles %}
         {% include "parts-articles-list.njk" %}

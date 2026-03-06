@@ -12,7 +12,7 @@
   <script>
     window.CATEGORY = "{{ category }}"
   </script>
-  <script src="/js/script-articles-list.js" defer></script>
+  <script src="/js/script-layout-main.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -63,14 +63,27 @@
       </nav>
 
       <!-- 見出し -->
-      <h1 id="page-title">{{ title }}</h1>
+      <h1 id="page-title" class="contents-title">{{ title }}</h1>
 
       <!-- カテゴリ検索 -->
       <div class="categories-pagination">
         <ul>
-          <li><a href="/articles-list/">ALL</a></li>
+          <li>
+            <a href="/articles-list/" class="{% if page.url == '/articles-list/' %}active{% endif %}">
+              ALL
+            </a>
+          </li>
+
           {% for cat in slugs.category %}
-          <li><a href="/articles-list/category/{{ cat.id | url }}/">{{ cat.name }}</a></li>
+
+          {% set catUrl = '/articles-list/category/' + cat.id + '/' %}
+
+          <li>
+            <a href="{{ catUrl }}" class="{% if page.url == catUrl %}active{% endif %}">
+              {{ cat.name }}
+            </a>
+          </li>
+
           {% endfor %}
         </ul>
       </div>
