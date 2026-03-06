@@ -17,7 +17,6 @@
     { "id": "transportation", "name": "交通手段" },
     { "id": "train", "name": "電車・鉄道" },
     { "id": "car-rental", "name": "レンタカー" },
-    { "id": "travel-tips", "name": "旅行のコツ・豆知識" },
     { "id": "biginner", "name": "初心者" },
     { "id": "event", "name": "イベント" },
     { "id": "asia", "name": "アジア" },
