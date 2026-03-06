@@ -123,7 +123,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getAll()
       .filter(item => item.data.released) // released がある記事だけ
       .sort((a, b) => new Date(b.data.released) - new Date(a.data.released)) // 新しい順
-      .slice(0, 6) // 先頭6件
+      .slice(0, 10) // 先頭10件
       .map(item => ({
         id: item.fileSlug,
         title: item.data.title,
