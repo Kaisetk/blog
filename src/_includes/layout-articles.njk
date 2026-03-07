@@ -147,11 +147,11 @@
             </p>
 
             <p class="author-desc">
-              なるべく定価で買わない生活を実践中。商品・サービス・旅行予約まで徹底比較し、
-              実際の利用経験や調査・比較をもとに情報を発信しています。
+              買い物・通信サービス・旅行予約など、日々の支出を価格や仕組みの視点から比較し、納得して選ぶための情報を発信しています。
+              自分自身でも日常の中で実践している内容を中心にまとめています。
             </p>
 
-            <a class="author-link" href="{{ site.url }}/about/">くわしいプロフィール</a>
+            <a class="author-link" href="/about/">くわしいプロフィール</a>
           </div>
         </div>
 
@@ -171,18 +171,18 @@
               {% if tags %}
               <div class="tags" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
                 {% for tag in tags %}
-                <a href="{{ site.url }}/articles-list/tag/{{ tag | url }}/">
+                <a href="/articles-list/tag/{{ tag | url }}/">
                   #{{ tag | getTagName(slugs) }}
                 </a>
                 {% endfor %}
               </div>
               {% endif %}
 
-              <a href="{{ site.url }}/articles-list/category/{{ category | url }}/" class="category-link">
+              <a href="/articles-list/category/{{ category | url }}/" class="category-link">
                 > {{ category | getCategoryName(slugs) }}の記事一覧
               </a><br>
               <h4>記事一覧から探す</h4>
-              <a href="{{ site.url }}/articles-list/" class="category-link">
+              <a href="/articles-list/" class="category-link">
                 > 記事一覧へ
               </a>
             </div>
