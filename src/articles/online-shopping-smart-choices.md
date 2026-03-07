@@ -49,12 +49,17 @@ ECサイトを毎回バラバラに使うよりも、利用するサイトをあ
 **スマホやWi-Fiなどの通信インフラ** または **電力やガスなどの生活インフラ**  
 
 に合わせるのがおすすめです。もし両方と連携できればさらにポイント還元率や割引率はUPします。  
-ちなみに筆者は<a href="https://hb.afl.rakuten.co.jp/hsc/51104111.29de2097.50d25d06.088b928e/?link_type=text&rafst=rmn&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天モバイル</a>ユーザのため、ショッピングは楽天市場を「メイン」に使っています。後述しますが、クレジットカードも楽天カードにしているため、割引・ポイント還元において相乗効果は大きいです。楽天ポイントはスマホ料金の支払いにも利用できるので、支払いが実質無料になる月も時々あります。   
+ちなみに筆者は<a href="https://hb.afl.rakuten.co.jp/hsc/51104111.29de2097.50d25d06.088b928e/?link_type=text&rafst=rmn&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天モバイル</a>ユーザのため、ショッピングは<a href="https://hb.afl.rakuten.co.jp/hsc/51a5a52e.9832fbae.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天市場</a>を「メイン」に使っています。後述しますが、クレジットカードも楽天カードにしているため、割引・ポイント還元において相乗効果は大きいです。楽天ポイントはスマホ料金の支払いにも利用できるので、支払いが実質無料になる月も時々あります。   
 
 > 筆者が利用している<a href="https://hb.afl.rakuten.co.jp/hsc/51104111.29de2097.50d25d06.088b928e/?link_type=text&rafst=rmn&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天モバイル</a>の料金については「[楽天モバイルは本当に安い？実際の料金・メリット・デメリット[2026年最新]](/articles/rakuten-mobile-fee/)」で紹介していますので、興味ある方は是非ご覧ください。
 
-ソフトバンクやY!mobileユーザならYahoo!ショッピングがおすすめです。また、auユーザでPontaポイントをメインでためている方であれば<a href="https://px.a8.net/svt/ejp?a8mat=4AZ7S1+BAN2YA+54O2+5YJRM" rel="nofollow">au PAY マーケット</a>
-<img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4AZ7S1+BAN2YA+54O2+5YJRM" alt="">を使う手もあります（少し規模は小さくなるのでサブにする手もあります）。他にもAmazon Prime会員でサービスよく使う場合はAmazon、など、現在の利用状況に合わせて選んでみてください。
+ソフトバンクやY!mobileユーザなら<a href="//af.moshimo.com/af/c/click?a_id=5408551&p_id=1225&pc_id=1925&pl_id=18502&url=https%3A%2F%2Fyahoo.co.jp" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>Yahoo!ショッピング</a>がおすすめです。他にもAmazon Prime会員でサービスよく使う場合はAmazon、など、現在の利用状況に合わせて選んでみてください。
+
+:::note
+楽天やAmazonなどと比較して商品数は少なくなりますが、auユーザでPontaポイントをメインでためている方であれば**au PAY マーケット**をメインまたはサブで使うのも効率的でおすすめです。
+<a href="https://px.a8.net/svt/ejp?a8mat=4AZ7S1+BAN2YA+54O2+5YRHE" rel="nofollow">ポイントでおトクにお買い物！au PAY マーケット</a>
+<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4AZ7S1+BAN2YA+54O2+5YRHE" alt="">
+:::
 
 ## サブは「メインにないメリットが得られるサイト」を使う
 「サブ」となるショッピングサイトは、**「メイン」にないメリットが得られるもの**を選びましょう。
@@ -72,14 +77,14 @@ ECサイトを毎回バラバラに使うよりも、利用するサイトをあ
 
 ## もっと割引を享受したい人におすすめ！クレジットカードも「メイン」か「サブ」合わせよう
 
-筆者は楽天モバイルユーザーのため、ショッピングは楽天市場を「メイン」にしています。
+筆者は楽天モバイルユーザーのため、ショッピングは<a href="https://hb.afl.rakuten.co.jp/hsc/51a5a52e.9832fbae.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天市場</a>を「メイン」にしています。
 さらにクレジットカードを楽天カードにしたことで、カード利用時のポイント加算やキャンペーンによるボーナスポイントも増えました。
+
+<a href="https://hb.afl.rakuten.co.jp/hsc/516cb663.47519e70.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6MTY3NDAyLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hsb/516cb663.47519e70.50d25d06.088b928e/?me_id=2101008&me_adv_id=167402&t=pict" border="0" style="margin:2px" alt="" title=""></a>
 
 ECサイトと相性の良いクレジットカードを選ぶことで、
 買い物時のポイントアップや、カード入会・利用による特典を受けられる場合もあります。
 **可能であれば、クレジットカードもECサイトや生活インフラに合わせて選ぶ**のがおすすめです。
-
-<a href="https://hb.afl.rakuten.co.jp/hsc/516cb663.47519e70.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6MTY3NDAyLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hsb/516cb663.47519e70.50d25d06.088b928e/?me_id=2101008&me_adv_id=167402&t=pict" border="0" style="margin:2px" alt="" title=""></a>
 
 ## まとめ
 
@@ -95,5 +100,18 @@ ECサイトは「どこが安いか」だけで選ぶのではなく、生活イ
 - 可能であれば支払い方法はポイントが最も貯まるクレジットカードに統一する
 :::
 
-
 「メイン」と「サブ」を意識してECサイトを使い分けることで、生活インフラやクレジットカードの特典を無駄なく活かし、日常の買い物をよりお得に楽しめます。
+
+<div class="shop-buttons" style="display:flex; flex-direction:column; gap:12px; margin:30px 0; align-items:center; text-align:center;">
+
+  <a href="https://hb.afl.rakuten.co.jp/hsc/51a5be7f.4ff752ca.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOiI0NCIsImJhbiI6Mjc5NDkwMSwiYW1wIjpmYWxzZX0%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">
+    <img src="https://hbb.afl.rakuten.co.jp/hsb/51a5be7f.4ff752ca.50d25d06.088b928e/?me_id=1&me_adv_id=2794901&t=pict" border="0" style="margin:2px" alt="" title="">
+  </a>
+
+  <a href="//af.moshimo.com/af/c/click?a_id=5408551&p_id=1225&pc_id=1925&pl_id=18518&url=https%3A%2F%2Fyahoo.co.jp" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>
+    <img src="https://image.moshimo.com/af-img/0349/000000018518.jpg" style="border:none;" alt="">
+  </a>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=5408551&p_id=1225&pc_id=1925&pl_id=18518" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+</div>

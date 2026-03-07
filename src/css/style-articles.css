@@ -203,7 +203,7 @@
 
 /* リンク */
 
-#article-content a {
+#article-content a:not(:has(img)){
   color: var(--color-bland);
   text-decoration: none;
   border-bottom: 1px solid var(--color-bland-soft2);
