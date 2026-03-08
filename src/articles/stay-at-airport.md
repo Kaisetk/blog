@@ -5,7 +5,7 @@ eyecatch: airport.webp
 date: 2026-03-06
 released: 2026-03-06
 category: trip
-tags: [flights, cheap-flights, transportation, overseas-trip, japan-trip, hotel]
+tags: [flights, cheap-flights, overseas-trip, japan-trip, hotel, airport]
 doesContainAds: true
 intro: この記事では、フライト前の前泊費用を節約するため、筆者（女）が実際に羽田空港で一晩過ごした「空港泊（空港宿泊）」体験談をご紹介します。LCCの早朝便に乗るために空港野宿決行したので、その際の過ごし方、少しでも快適に過ごすコツなどを共有します。早朝LCCを利用する場合、ホテル前泊をせず空港泊することで数千円〜1万円程度節約できるケースもあります。空港近くに前泊が必要になった方、費用節約のために空港宿泊を考えている方の参考になれば嬉しいです。
 related: [lcc-options-worth-it, airport-lounge-saving-hack, lcc-flight-baggage]

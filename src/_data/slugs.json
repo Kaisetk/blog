@@ -7,11 +7,11 @@
 
     { "id": "japan-trip", "name": "国内旅行" },
     { "id": "overseas-trip", "name": "海外旅行" },
-    { "id": "flights", "name": "飛行機・フライト" },
+    { "id": "flights", "name": "飛行機" },
     { "id": "lcc", "name": "LCC" },
     { "id": "cheap-flights", "name": "格安航空券" },
     { "id": "baggage", "name": "手荷物" },
-    { "id": "hotel", "name": "ホテル・宿泊施設" },
+    { "id": "hotel", "name": "ホテル" },
     { "id": "ryokan", "name": "旅館" },
     { "id": "gourmet", "name": "グルメ・食事" },
     { "id": "transportation", "name": "交通手段" },
@@ -21,14 +21,15 @@
     { "id": "event", "name": "イベント" },
     { "id": "asia", "name": "アジア" },
     { "id": "travel-gear", "name": "旅行グッズ・アイテム" },
+    { "id": "airport", "name": "空港" },
+    { "id": "airport-lounge", "name": "空港ラウンジ" },
 
-    { "id": "shopping", "name": "ショッピング・買い物" },
     { "id": "mobile-fee", "name": "スマホ料金" },
     { "id": "mobile-sim", "name": "格安SIM" },
     { "id": "credit-card", "name": "クレジットカード" },
-    { "id": "point", "name": "ポイント・還元" },
-    { "id": "e-commerce", "name": "オンラインショッピング・ECサイト" },
-    { "id": "coupon", "name": "クーポン・割引情報" },
+    { "id": "point", "name": "ポイント還元" },
+    { "id": "e-commerce", "name": "オンラインショッピング" },
+    { "id": "coupon", "name": "クーポン" },
     { "id": "furusato-nozei", "name": "ふるさと納税" },
     { "id": "saving-money", "name": "貯蓄・資産形成" }
   ]

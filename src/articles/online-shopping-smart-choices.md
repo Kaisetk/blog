@@ -6,7 +6,7 @@ eyecatch: onlineshopping.webp
 date: 2026-03-07
 released: 2026-02-11
 category: daily-life
-tags: [shopping, e-commerce, credit-card, mobile-fee]
+tags: [e-commerce, coupon, point]
 intro: 本記事では、10年近くにわたって複数のオンラインショッピングサイトを日常的に使い分けてきた筆者が、ECサイトをお得に使うための選び方をご紹介します。Amazon、楽天市場、Yahoo!ショッピング、ヨドバシ・ドット・コム、ZOZOTOWN、各メーカーやブランドの公式オンラインショップなど、世の中には大小さまざまなECサイトがありますが、皆さんはどのサイトを活用していますか？「何となくAmazonを使っている…」「どのサイトも違いがよくわからない」といった方は必見です。
 doesContainAds: true
 related: [rakuten-mobile-fee, book-cost-saving]

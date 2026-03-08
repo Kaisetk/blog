@@ -5,7 +5,7 @@ eyecatch: books.webp
 date: 2026-03-05
 released: 2026-03-05
 category: daily-life
-tags: [shopping, e-commerce]
+tags: [e-commerce, coupon, point]
 doesContainAds: true
 intro: 読書や漫画が趣味の方、学業やスキルアップのために教材や参考書を購入している方の中には、「本の購入費用が高い…」と感じている方も多いのではないでしょうか。本屋さんで日常的に書籍を購入していると、気づけば毎月の出費がかさんでしまいますよね。しかし、読む頻度を減らさずに本を安く買う方法は、電子書籍・ポイント還元・中古購入・図書館利用など意外と多くあります。この記事では、本や漫画が好きで実際にさまざまな方法を試してきた筆者が、無理なく実践できる本代節約術をご紹介します。
 related: [online-shopping-smart-choices, rakuten-mobile-fee]
