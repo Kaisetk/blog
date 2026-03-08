@@ -58,7 +58,7 @@
           {% if tags %}
           <div class="tags">
             {% for tag in tags %}
-            <a class="tag" href="{{ site.url }}/articles-list/tag/{{ tag | url }}/">#{{ tag | getTagName(slugs) }}</a>
+            <a class="tag" href="/articles-list/tag/{{ tag | url }}/">#{{ tag | getTagName(slugs) }}</a>
             {% endfor %}
           </div>
           {% endif %}
@@ -179,7 +179,7 @@
               {% endif %}
 
               <a href="/articles-list/category/{{ category | url }}/" class="category-link">
-                > {{ category | getCategoryName(slugs) }}の記事一覧
+                > {{ category | getCategoryName(slugs) }}をお得に
               </a><br>
               <h4>記事一覧から探す</h4>
               <a href="/articles-list/" class="category-link">

@@ -1,3 +1,10 @@
+.category-description {
+  margin: 16px 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #555;
+}
+
 .categories-pagination {
   text-align: center;
   margin: 20px 0;

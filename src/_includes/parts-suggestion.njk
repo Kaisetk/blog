@@ -1,7 +1,7 @@
 <div class="categories-suggestion">
     <h4>記事カテゴリから探す</h4>
     {% for cat in slugs.category %}
-    <a href="/articles-list/category/{{ cat.id | url }}/" class="category-link">>{{ cat.name }}の記事一覧</a>
+    <a href="/articles-list/category/{{ cat.id | url }}/" class="category-link">>{{ cat.name }}をお得に</a>
     {% endfor %}
 </div>
 <div id="all_tags"><!--記事が少ないうちはallの場合はタグをすべて表示-->

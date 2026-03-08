@@ -49,6 +49,8 @@
       <!-- 見出し -->
       <h1 id="page-title">{{ title }}</h1>
 
+      <div class="category-description">「{{ item.tag | getTagName(slugs) }}」に関連する記事をまとめています。日常生活や旅行を少しでもお得にするためのライフハックや活用方法を紹介しています。</div>
+
       <!-- 記事リスト -->
       <ul class="articles_list">
         {% for article in item.posts %}

@@ -65,6 +65,9 @@
       <!-- 見出し -->
       <h1 id="page-title" class="contents-title">{{ title }}</h1>
 
+      <div class="category-description">{{ description | safe }}</div>
+      
+
       <!-- カテゴリ検索 -->
       <div class="categories-pagination">
         <ul>
@@ -152,10 +155,10 @@
 
         <!-- カテゴリ一覧 -->
         <div class="categories-suggestion">
-          <h4>記事カテゴリから探す</h4>
+          <h4>カテゴリから探す</h4>
           {% for cat in slugs.category %}
           <a href="/articles-list/category/{{ cat.id | url }}/" class="category-link">
-            ＞{{ cat.name }}の記事一覧
+            ＞{{ cat.name }}をお得に
           </a>
           {% endfor %}
         </div>
