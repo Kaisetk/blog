@@ -6,7 +6,7 @@ const markdownItContainer = require("markdown-it-container");
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("robots.txt");
-  eleventyConfig.addPassthroughCopy("e980358e09e548d8aae805da9c28a770.txt");
+  eleventyConfig.addPassthroughCopy("/src/e980358e09e548d8aae805da9c28a770.txt");
 
   eleventyConfig.addTransform("externalLinksAuto", function (content) {
     if (!this.page.outputPath || !this.page.outputPath.endsWith(".html")) {
