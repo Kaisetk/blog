@@ -1,7 +1,7 @@
 ---
 layout: layout-articles.njk
 title: 【初心者向け】LCC予約時のオプションはどこまで必要？手荷物・座席指定など損しない選び方
-eyecatch: airport.webp
+eyecatch: airplane-travel.webp
 date: 2026-03-01
 released: 2026-02-23
 category: trip
