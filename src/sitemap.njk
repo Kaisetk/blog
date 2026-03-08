@@ -7,11 +7,17 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 {% for page in collections.all %}
-  {% if page.url and not page.data.noindex and page.url != "/404.html" %}
+  {% if page.url and not page.data.noindex and "/tag/" not in page.url and page.url != "/404.html" %}
   <url>
     <loc>{{ site.url }}{{ page.url }}</loc>
   </url>
   {% endif %}
+{% endfor %}
+
+{% for tag in collections.articlesByTag %}
+  <url>
+    <loc>{{ site.url }}/articles-list/tag/{{ tag.tag }}/</loc>
+  </url>
 {% endfor %}
 
 </urlset>
