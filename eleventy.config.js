@@ -124,7 +124,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getAll()
       .filter(item => item.data.released) // released がある記事だけ
       .sort((a, b) => new Date(b.data.released) - new Date(a.data.released)) // 新しい順
-      .slice(0, 10) // 先頭10件
+      .slice(0, 6) // 先頭6件
       .map(item => ({
         id: item.fileSlug,
         title: item.data.title,
@@ -179,11 +179,46 @@ module.exports = function (eleventyConfig) {
       });
     });
 
+
+
     Object.entries(map).forEach(([tag, posts]) => {
       result.push({
         tag,
         posts
       });
+    });
+
+    return result;
+  });
+
+  eleventyConfig.addCollection("featuredArticles", function (collectionApi) {
+
+    const featured = require("./src/_data/featured.js");
+    const all = collectionApi.getAll();
+
+    let result = {};
+
+    Object.keys(featured).forEach(cat => {
+
+      result[cat] = featured[cat].map(slug => {
+
+        const item = all.find(post => post.fileSlug === slug);
+
+        if (!item) return null;
+
+        return {
+          id: item.fileSlug,
+          title: item.data.title,
+          eyecatch: item.data.eyecatch,
+          category: item.data.category,
+          tags: item.data.tags,
+          intro: item.data.intro,
+          url: item.url,
+          date: item.data.date
+        };
+
+      }).filter(Boolean);
+
     });
 
     return result;
