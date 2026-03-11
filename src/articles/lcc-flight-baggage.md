@@ -8,7 +8,7 @@ category: trip
 tags: [flights, cheap-flights, baggage, beginner, overseas-trip, japan-trip, airport]
 doesContainAds: true
 intro: 本記事では、LCCで何度も旅行している筆者が、LCCフライトでの手荷物料金を少しでも節約するためのコツを解説します。LCCは大手キャリアと比べて航空券を安く予約できますが、受託手荷物（預け荷物）や機内持ち込みのルールによって追加料金が発生しやすく、思ったより費用がかかるケースも少なくありません。LCCをよく使う方、できるだけ旅行費用を抑えたい方は、今回紹介する中からご自身の旅に合いそうなものを取り入れてみてくださいね。
-related: [lcc-options-worth-it, stay-at-airport, book-cost-saving, airport-lounge-saving-hack]
+related: [lcc-options-worth-it, stay-at-airport, lcc-baggage-fees]
 
 ---
 ## LCCの手荷物料金が高くなりやすい理由
