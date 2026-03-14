@@ -24,7 +24,7 @@ related: [online-shopping-smart-choices, rakuten-mobile-fee]
 
 ## 本を安く買う方法（まとめ）
 
-本代を安くする方法は、大きく分けて「買い方を変える」「買わない選択をする」「実質負担を下げる」の3点が重要です。具体的には、それぞれ以下のような方法が挙げられます。
+本代を安くする方法は、大きく分けて「買い方を変える」「借りる選択をする」「実質負担を下げる」の3点が重要です。具体的には、それぞれ以下のような方法が挙げられます。
 
 ### 買い方を変える方法
 
@@ -32,7 +32,7 @@ related: [online-shopping-smart-choices, rakuten-mobile-fee]
 - オンラインショップの**ポイント還元・キャンペーンを活用**する（実質割引）
 - **フリマサイトなどで新品を探す or 中古品を購入**する（定価より安い）
 
-### 買わない選択をする方法
+### 借りる選択をする方法
 
 - 読み返さない予定の本は**図書館で借りる**（購入費ゼロ）
 - (漫画や雑誌などたくさん読みたい方向け)**読み放題サービスを利用する**
@@ -123,7 +123,7 @@ related: [online-shopping-smart-choices, rakuten-mobile-fee]
 
 **自分の読書量と月額料金を比較して判断**することが重要です。
 
-一例としては、雑誌が月額一定料金で読み放題になる<a href="https://hb.afl.rakuten.co.jp/hsc/517d8a82.a6682e83.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天マガジン</a>などです。雑誌に限らず、漫画、特定の出版社が出版する教材も、サブスク形式で配信されていることがあります。興味があれば是非調べてみてください。
+一例としては、雑誌が月額一定料金で読み放題になる<a href="https://hb.afl.rakuten.co.jp/hsc/517d8a82.a6682e83.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天マガジン</a>などです。雑誌に限らず、漫画、特定の出版社が出版する教材も、サブスク形式で配信されていることがあります。興味がある方は是非調べてみてください。
 
 
 ## 不要になった本を販売する
