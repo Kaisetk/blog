@@ -31,6 +31,9 @@
     { "id": "e-commerce", "name": "オンラインショッピング" },
     { "id": "coupon", "name": "クーポン" },
     { "id": "furusato-nozei", "name": "ふるさと納税" },
-    { "id": "saving-money", "name": "貯蓄・資産形成" }
+    { "id": "saving-money", "name": "貯蓄・資産形成" },
+    { "id": "subscriptions", "name": "サブスクリプション" },
+    { "id": "video-streaming", "name": "動画配信" },
+    { "id": "music-streaming", "name": "音楽配信" }
   ]
 }
