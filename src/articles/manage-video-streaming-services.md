@@ -1,6 +1,6 @@
 ---
 layout: layout-articles.njk
-title:  動画サブスクは何個まで？無駄な契約を減らして2つに絞る方法
+title:  動画サブスクは何個まで？無駄な契約を減らして2つ以下に絞る方法
 eyecatch: video-streaming.webp
 date: 2026-03-15
 released: 2026-03-15
