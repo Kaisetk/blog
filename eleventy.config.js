@@ -241,6 +241,25 @@ module.exports = function (eleventyConfig) {
   });
 
 
+  eleventyConfig.addShortcode("shopcard", function (imageHtml, rakuten, yahoo) {
+
+    return `<div class="shop-card">
+
+    ${imageHtml ? `<div class="shop-card-image">${imageHtml}</div>` : ""}
+
+    <div class="shop-card-buttons">
+
+      ${rakuten ? `<a href="${rakuten}" class="shop-btn rakuten">楽天で見る</a>` : ""}
+
+      ${yahoo ? `<a href="${yahoo}" class="shop-btn yahoo">Yahooで見る</a>` : ""}
+
+    </div>
+
+  </div>`;
+
+  });
+
+
   // ==========================
   // サイト情報（グローバルデータ）
   // ==========================
@@ -260,7 +279,9 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       data: "_data",
       output: "_site"
-    }
+    },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk"
   };
 };
 

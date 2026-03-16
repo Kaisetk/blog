@@ -35,13 +35,13 @@
   margin-top: 0.8rem;
 }
 
-.article-header + img {
+.article-header+img {
   width: 100%;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
   margin: 1rem 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* ============================================================
@@ -203,7 +203,7 @@
 
 /* リンク */
 
-#article-content a:not(:has(img)){
+#article-content a:not(:has(img)):not(.shop-btn) {
   color: var(--color-bland);
   text-decoration: none;
   border-bottom: 1px solid var(--color-bland-soft2);
@@ -215,7 +215,7 @@
   display: block;
   margin: 1.5rem auto;
   border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 @media (min-width: 900px) {
@@ -232,7 +232,8 @@ table {
   font-size: 15px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #e5e7eb;
   padding: 10px 12px;
 }
@@ -311,7 +312,7 @@ tr:nth-child(even) {
   top: 4px;
   left: 10px;
   font-size: 2.4rem;
-  color: rgba(0,0,0,0.08);
+  color: rgba(0, 0, 0, 0.08);
   font-family: serif;
 }
 
@@ -331,8 +332,8 @@ tr:nth-child(even) {
   border-radius: 14px;
   font-size: 0.95rem;
   line-height: 1.75;
-  border: 1px solid rgba(0,0,0,0.06);
-  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
   position: relative;
   overflow: hidden;
 }
@@ -388,7 +389,8 @@ tr:nth-child(even) {
 /* CAUTION */
 
 .caution {
-  background: #fafafa; /* ほぼ白グレー */
+  background: #fafafa;
+  /* ほぼ白グレー */
   border: 1px solid #eee;
 }
 
@@ -583,8 +585,13 @@ tr:nth-child(even) {
 ============================================================ */
 
 @media (max-width: 768px) {
-  #article-content h2 { font-size: 1.3rem; }
-  #article-content h3 { font-size: 1.15rem; }
+  #article-content h2 {
+    font-size: 1.3rem;
+  }
+
+  #article-content h3 {
+    font-size: 1.15rem;
+  }
 }
 
 /* ============================================================
@@ -626,5 +633,86 @@ tr:nth-child(even) {
 
   .widget-sp {
     display: none;
+  }
+}
+
+/**商品リンク*/
+.shop-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 20px;
+  background: #ffffff;
+  margin: 28px auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  max-width: 460px;
+}
+
+/* 画像 */
+.shop-card-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+/* ボタンエリア */
+.shop-card-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shop-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: all .15s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ボタン色 */
+.shop-btn.rakuten {
+  background: #bf0000;
+  color: #fff;
+}
+
+.shop-btn.yahoo {
+  background: #ff0033;
+  color: #fff;
+}
+
+.shop-btn:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* PC / タブレットレイアウト */
+@media (min-width:640px) {
+  .shop-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 560px;
+  }
+
+  .shop-card-buttons {
+    flex: 1; /* 残り幅を使う */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .shop-btn {
+    font-size: 15px;
+    padding: 14px;
   }
 }
