@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <head>
-  {% set title = item.tag | getTagName(slugs) ~ "の記事一覧" %}
+  {% set title = item.tag | getTagName(slugs) ~ "の記事一覧 - Otoku Choices" %}
   {% include "head.njk" %}
   {% include "og-website.njk" %}
 
@@ -47,7 +47,7 @@
       </nav>
 
       <!-- 見出し -->
-      <h1 id="page-title">{{ title }}</h1>
+      <h1 id="page-title">{{ item.tag | getTagName(slugs) }}の記事一覧</h1>
 
       <div class="category-description">「{{ item.tag | getTagName(slugs) }}」に関連する記事をまとめています。日常生活や旅行を少しでもお得にするためのライフハックや活用方法を紹介しています。</div>
 

@@ -1,6 +1,6 @@
 ---
 layout: layout-main.njk
-title: お問い合わせ
+title: お問い合わせ - Otoku Choices 
 description: 本サイトについてのお問い合わせ先のご案内です。
 addCss: style-contact
 ---

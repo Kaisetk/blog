@@ -63,7 +63,7 @@
       </nav>
 
       <!-- 見出し -->
-      <h1 id="page-title" class="contents-title">{{ title }}</h1>
+      <h1 id="page-title" class="contents-title">{% if category %}{{ category | getCategoryName(slugs) }}をお得にするライフハック{% else %}記事一覧{% endif %}</h1>
 
       <div class="category-description">{{ description | safe }}</div>
       
@@ -143,7 +143,7 @@
           <h4>関連ワードから探す</h4>
           <div class="tags">
             {% for tag in tags %}
-            <a href="{{ site.url }}/articles-list/tag/{{ tag | url }}/">
+            <a href="/articles-list/tag/{{ tag | url }}/">
               #{{ tag | getTagName(slugs) }}
             </a>
             {% endfor %}
