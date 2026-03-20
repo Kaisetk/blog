@@ -25,7 +25,7 @@
   border-radius: 12px;
   border: 1px solid #eee;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .article_card .card:hover {
