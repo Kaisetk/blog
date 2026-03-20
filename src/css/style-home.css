@@ -1,0 +1,101 @@
+/* =====================
+   Hero全体
+===================== */
+.top_message {
+    display: none;
+}
+
+.hero {
+    text-align: center;
+    margin: 0 auto 56px;
+    padding: 0 20px;
+}
+
+/* ロゴ */
+h1 {
+    margin: 48px 0 20px;
+}
+
+h1 img {
+    max-width: 250px;
+    height: auto;
+}
+
+/* =====================
+   タイトル
+===================== */
+.hero-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+}
+
+/* =====================
+   説明
+===================== */
+.hero-desc {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.8;
+    margin-bottom: 28px;
+}
+
+/* =====================
+   タブ型リンク（ここが主役）
+===================== */
+.hero-links {
+    display: inline-flex;
+    border: 2px solid var(--color-bland);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* 各リンク */
+.hero-links a {
+    padding: 12px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    color: var(--color-bland);
+    background: #ffffff;
+
+    transition: all 0.2s ease;
+}
+
+/* 区切り */
+.hero-links a+a {
+    border-left: 2px solid var(--color-bland);
+}
+
+/* ホバー */
+.hero-links a:hover {
+    background: var(--color-bland);
+    color: #ffffff;
+}
+
+/* =====================
+   スマホ
+===================== */
+@media (max-width: 480px) {
+
+    h1 {
+        margin: 88px 0 20px;
+    }
+
+    .hero-title {
+        font-size: 20px;
+    }
+
+    .hero-desc {
+        font-size: 13px;
+    }
+
+    .hero-links a {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+}
