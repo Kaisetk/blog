@@ -142,6 +142,43 @@
   font-weight: 600;
 }
 
+/* 折りたたみ初期 */
+#toc-list.collapsed {
+  max-height: 12em; /* 折りたたみ高さはそのまま */
+  overflow: hidden;
+  position: relative;
+}
+
+/* 下部フェードアウト（高さを大きめに） */
+#toc-list.collapsed::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5em;
+  background: linear-gradient(to bottom, rgba(249,250,251,0), #f9fafb);
+  pointer-events: none;
+}
+
+/* 展開時フェードアウト非表示 */
+#toc-list:not(.collapsed)::after {
+  display: none;
+}
+
+/* 「もっとみる」ボタン */
+.toc-expand-btn {
+  display: block;
+  margin: 0.3rem auto 0;
+  font-size: 0.9rem;
+  background: none;
+  border: none;
+  color: var(--color-bland);
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+}
+
 /* ============================================================
    04. 記事本文 基本
 ============================================================ */
