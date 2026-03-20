@@ -169,8 +169,10 @@ main {
 }
 .logo img {
   display: block;
-  height: 48px; 
+  height: 36px; 
   width: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .nav-links {
@@ -218,7 +220,7 @@ main {
 }
 
 /* モバイルナビ */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .nav-links {
     display: none;
     flex-direction: column;
