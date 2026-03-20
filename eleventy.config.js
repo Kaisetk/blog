@@ -241,22 +241,35 @@ module.exports = function (eleventyConfig) {
   });
 
 
-  eleventyConfig.addShortcode("shopcard", function (imageHtml, rakuten, yahoo) {
-
-    return `<div class="shop-card">
+  eleventyConfig.addShortcode("shopcard", function (imageHtml, rakuten, yahoo, title) {
+    return `
+  <div class="shop-card">
 
     ${imageHtml ? `<div class="shop-card-image">${imageHtml}</div>` : ""}
 
-    <div class="shop-card-buttons">
+    <div class="shop-card-content">
+      ${title ? `<p class="shop-card-title">${title}</p>` : ""}
 
-      ${rakuten ? `<a href="${rakuten}" class="shop-btn rakuten">楽天で見る</a>` : ""}
-
-      ${yahoo ? `<a href="${yahoo}" class="shop-btn yahoo">Yahooで見る</a>` : ""}
-
+      <div class="shop-card-buttons">
+        ${rakuten ? `<a href="${rakuten}" class="shop-btn rakuten">楽天で見る</a>` : ""}
+        ${yahoo ? `<a href="${yahoo}" class="shop-btn yahoo">Yahooで見る</a>` : ""}
+      </div>
     </div>
 
-  </div>`;
+  </div>
+`;
+  });
 
+  eleventyConfig.addShortcode("shopsearch", function (keyword, rakutenUrl, yahooUrl) {
+    return `
+    <div class="shop-search-card">
+      <p class="shop-search-title">「${keyword}」を探す</p>
+      <div class="shop-search-buttons">
+        ${rakutenUrl ? `<a href="${rakutenUrl}" class="shop-btn rakuten">楽天で探す</a>` : ""}
+        ${yahooUrl ? `<a href="${yahooUrl}" class="shop-btn yahoo">Yahooで探す</a>` : ""}
+      </div>
+    </div>
+  `;
   });
 
 

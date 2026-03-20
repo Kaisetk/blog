@@ -225,30 +225,30 @@
   }
 }
 
-table {
+table:not(:has(img)){
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
   font-size: 15px;
 }
 
-th,
-td {
+th:not(:has(img)),
+td:not(:has(img)) {
   border: 1px solid #e5e7eb;
   padding: 10px 12px;
 }
 
-th {
+th:not(:has(img)) {
   background-color: #f5f7fa;
   font-weight: 600;
   text-align: center;
 }
 
-td {
+td:not(:has(img)) {
   text-align: center;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even):not(:has(img)) {
   background-color: #fafafa;
 }
 
@@ -635,14 +635,13 @@ tr:nth-child(even) {
     display: none;
   }
 }
-
-/**商品リンク*/
+/** 商品リンク */
 .shop-card {
   border: 1px solid #e6e6e6;
   border-radius: 12px;
   padding: 20px;
   background: #ffffff;
-  margin: 28px auto;
+  margin: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
   max-width: 460px;
 }
@@ -654,14 +653,21 @@ tr:nth-child(even) {
   width: 100%;
 }
 
+/* タイトル */
+.shop-card-title {
+  font-weight: bold;
+  margin: 10px 0 12px;
+  text-align: center;
+}
 
 /* ボタンエリア */
 .shop-card-buttons {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
+/* ボタン */
 .shop-btn {
   display: block;
   width: 100%;
@@ -672,7 +678,7 @@ tr:nth-child(even) {
   font-weight: 700;
   font-size: 14px;
   box-sizing: border-box;
-  transition: all .15s ease;
+  transition: all 0.15s ease;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -682,37 +688,50 @@ tr:nth-child(even) {
 .shop-btn.rakuten {
   background: #bf0000;
   color: #fff;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .shop-btn.yahoo {
   background: #ff0033;
   color: #fff;
+    padding-left: 40px;
+  padding-right: 40px;
 }
 
+/* ホバー */
 .shop-btn:hover {
   opacity: 0.95;
   transform: translateY(-1px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
-/* PC / タブレットレイアウト */
-@media (min-width:640px) {
+/* PC / タブレット */
+@media (min-width: 640px) {
   .shop-card {
     display: flex;
     align-items: center;
     gap: 20px;
-    max-width: 560px;
-  }
-
-  .shop-card-buttons {
-    flex: 1; /* 残り幅を使う */
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    max-width: 640px;
   }
 
   .shop-btn {
     font-size: 15px;
     padding: 14px;
   }
+}
+
+.shop-search-card {
+  padding: 16px;
+  margin: 24px auto;
+  max-width: 460px;
+}
+
+.shop-search-title {
+  font-weight: bold;
+}
+
+.shop-search-buttons {
+  gap: 10px;
+  justify-content: center;
 }
