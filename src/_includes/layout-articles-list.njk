@@ -72,7 +72,7 @@
       <div class="categories-pagination">
         <ul>
           <li>
-            <a href="/articles-list/" class="{% if page.url == '/articles-list/' %}active{% endif %}">
+            <a href="/articles-list/" class="{% if not category %}active{% endif %}">
               ALL
             </a>
           </li>
@@ -82,7 +82,7 @@
           {% set catUrl = '/articles-list/category/' + cat.id + '/' %}
 
           <li>
-            <a href="{{ catUrl }}" class="{% if page.url == catUrl %}active{% endif %}">
+            <a href="{{ catUrl }}" class="{% if page.url.startsWith(catUrl) %}active{% endif %}">
               {{ cat.name }}
             </a>
           </li>
