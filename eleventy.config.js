@@ -272,6 +272,29 @@ module.exports = function (eleventyConfig) {
   `;
   });
 
+  eleventyConfig.addShortcode("article", function (slug) {
+  const articles = this.ctx?.collections?.articles || [];
+  const article = articles.find(a => a.id === slug);
+  if (!article) return "";
+
+  const eyecatch = article.eyecatch;
+  const intro = article.intro
+    ? article.intro.substring(0, 80).replace(/。?$/, "…")
+    : "";
+
+  return `
+<a href="${article.url}" class="article-card-reference">
+  <div class="article-card-image-reference">
+    <img src="/images/articles/eyecatches/600px/${eyecatch}" alt="${article.title}のアイキャッチ画像" class="card-image-reference" loading="lazy">
+  </div>
+  <div class="article-card-content-reference">
+    <div class="article-card-title-reference">${article.title}</div>
+    <div class="article-card-intro-reference">
+      ${intro}
+    </div>
+  </div>
+</a>`;
+});
 
   // ==========================
   // サイト情報（グローバルデータ）

@@ -99,7 +99,9 @@ ECサイトを毎回バラバラに使うよりも、利用するサイトをな
 楽天市場での買い物では、楽天モバイル会員や楽天カード利用によるポイントアップが重なり、ポイント還元分を差し引くと実質的に数％安く購入できている感覚があります。
 また、貯まった楽天ポイントはスマホ料金の支払いにも使えるため、買い物→ポイント獲得→固定費の支払いに充当、という形で無駄なく活用できています。実際に、スマホ料金が実質無料になる月もあり、節約効果を実感しています。   
 
-> 筆者が利用している<a href="https://hb.afl.rakuten.co.jp/hsc/51104111.29de2097.50d25d06.088b928e/?link_type=text&rafst=rmn&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天モバイル</a>の料金については「[楽天モバイルは本当に安い？実際の料金・メリット・デメリット[2026年最新]](/articles/rakuten-mobile-fee/)」で紹介していますので、興味ある方は是非ご覧ください。
+筆者が利用している<a href="https://hb.afl.rakuten.co.jp/hsc/51104111.29de2097.50d25d06.088b928e/?link_type=text&rafst=rmn&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天モバイル</a>の料金については以下の記事で紹介していますので、興味ある方は是非ご覧ください。
+
+{% article "rakuten-mobile-fee" %}
 :::
 
 ソフトバンクやY!mobileユーザならYahoo!ショッピング、Amazon Prime会員でサービスよく使う場合はAmazonがおすすめです。あまりインフラとは関係ありませんが、ガジェットが好きでよく買う方であれば、ガジェット・日用品ともにヨドバシ・ドット・コムで買い物をしてポイント還元率を高めるのも良い選択です。
