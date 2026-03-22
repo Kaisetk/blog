@@ -42,12 +42,12 @@
 
       <!-- パンくずリスト -->
       <nav class="breadcrumbs" aria-label="Breadcrumb">
-        <a href="{{ site.url }}">ホーム</a>
+        <a href="/">ホーム</a>
         <span class="gt"> &gt; </span>
 
         {% if category %}
 
-        <a href="{{ site.url }}/articles-list/">記事一覧</a>
+        <a href="/articles-list/">記事一覧</a>
         <span class="gt">&rsaquo;</span>
         <span id="breadcrumb-current-container">
           {{ category | getCategoryName(slugs) }}
@@ -56,7 +56,7 @@
         {% else %}
 
         <span id="breadcrumb-articles-container">
-          <span id="breadcrumb-articles">{{ title }}</span>
+          <span id="breadcrumb-articles">記事一覧</span>
         </span>
 
         {% endif %}
