@@ -52,56 +52,6 @@ function initHeaderScroll() {
   });
 }
 
-// =========================
-// 記事グリッド生成
-// =========================
-function renderArticlesGrid(container, options = {}) {
-  const articles = options.articles || window.ARTICLES || [];
-  const category = options.category || null;
-  const tag = options.tag || null;
-
-  let filtered = articles;
-  if (category) filtered = filtered.filter(a => a.category === category);
-  if (tag) filtered = filtered.filter(a => a.tags && a.tags.includes(tag));
-
-  container.innerHTML = "";
-  if (filtered.length === 0) {
-    container.innerHTML = "<li>記事が見つかりませんでした。</li>";
-    return;
-  }
-  filtered.forEach(article => {
-    const li = document.createElement("li");
-    li.className = "article_card";
-
-    li.innerHTML = `
-    <a href="/articles/${article.id}/" class="card${article.eyecatch ? "" : " no-thumb"}">
-      ${article.eyecatch ? `
-        <div class="card-thumb">
-          <img src="/images/articles/eyecatches/600px/${article.eyecatch}" alt="${article.title}" loading="lazy" decoding="async">
-        </div>
-      ` : ""}
-
-      <div class="card-body">
-        <h2 class="title">${article.title}</h2>
-
-        ${article.intro ? `<p class="intro">${article.intro}</p>` : ""}
-
-        <div class="card-footer">
-          <span class="category">${getCategoryName(article.category)}</span>
-          ${article.tags ? `<span class="tags">#${article.tags.map(tag => getTagName(tag)).join(' #')}</span>` : ""}
-          ${article.date ? `<span class="date">${formatDateJS(article.date)}</span>` : ""}
-        </div>
-      </div>
-    </a>
-  `;
-
-    container.appendChild(li);
-  });
-
-
-
-}
-
 function formatDateJS(dateString) {
   if (!dateString) return "";
   const d = new Date(dateString);

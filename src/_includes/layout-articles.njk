@@ -42,9 +42,12 @@
       <!-- パンくずリスト -->
       <nav class="breadcrumbs" aria-label="Breadcrumb">
         <a href="/">ホーム</a> <span class="gt">&rsaquo;</span>
-        {% if category %}
         <a href="/articles-list/"> 記事一覧 </a> <span class="gt">&rsaquo;</span>
+        {% if category %}
         <a href="/articles-list/category/{{ category | url }}/"> {{ category | getCategoryName(slugs) }}
+        </a> <span class="gt">&rsaquo;</span>
+        {% elseif lab %}
+        <a href="/articles-list/lab/"> ブログ運営
         </a> <span class="gt">&rsaquo;</span>
         {% endif %}
         <span>{{ title }}</span>
@@ -160,7 +163,10 @@
 
           <!--関連記事-->
           <ul id="articles_list" class="articles_list">
-            <!-- JSで記事リンクを生成 -->
+            {% set related = collections.relatedArticles(tags, page.fileSlug) %}
+            {% for article in related %}
+            {% include "parts-articles-list.njk" %}
+            {% endfor %}
           </ul>
 
           <div class="search-suggestions">

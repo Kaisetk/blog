@@ -225,6 +225,40 @@ module.exports = function (eleventyConfig) {
     return result;
   });
 
+  eleventyConfig.addCollection("relatedArticles", function (collectionApi) {
+
+    return function (tags = [], currentSlug = "", limit = 3) {
+
+      const all = collectionApi.getAll();
+
+      return all
+        .filter(item => {
+          // 自分自身は除外
+          if (item.fileSlug === currentSlug) return false;
+
+          // タグが1つでも一致したらOK
+          const itemTags = item.data.tags || [];
+          return tags.some(tag => itemTags.includes(tag));
+        })
+        // 新しい順（お好みで）
+        .sort((a, b) => b.date - a.date)
+        // 件数制限
+        .slice(0, limit)
+        // 必要なデータだけ整形
+        .map(item => ({
+          id: item.fileSlug,
+          title: item.data.title,
+          eyecatch: item.data.eyecatch,
+          category: item.data.category,
+          tags: item.data.tags,
+          intro: item.data.intro,
+          url: item.url,
+          date: item.data.date
+        }));
+
+    };
+  });
+
 
   eleventyConfig.addFilter("filterByCategory", (collection, category) => {
     return collection.filter(item => item.data.category === category);
@@ -238,6 +272,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("getCategoryName", (categoryId, taxonomy) => {
     const category = taxonomy.category.find(t => t.id === categoryId);
     return category ? category.name : categoryId;
+  });
+
+  eleventyConfig.addShortcode("insertimg", function (slug, filename, alt) {
+    const articles = this.ctx?.collections?.articles || [];
+    const article = articles.find(a => a.id === slug);
+    if (!article) return "";
+    return `<img src="/images/articles/${slug}/${filename}.webp" alt="${alt || article.title}" class="inserted-image" loading="lazy">`;
   });
 
 
@@ -273,16 +314,16 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("article", function (slug) {
-  const articles = this.ctx?.collections?.articles || [];
-  const article = articles.find(a => a.id === slug);
-  if (!article) return "";
+    const articles = this.ctx?.collections?.articles || [];
+    const article = articles.find(a => a.id === slug);
+    if (!article) return "";
 
-  const eyecatch = article.eyecatch;
-  const intro = article.intro
-    ? article.intro.substring(0, 80).replace(/。?$/, "…")
-    : "";
+    const eyecatch = article.eyecatch;
+    const intro = article.intro
+      ? article.intro.substring(0, 80).replace(/。?$/, "…")
+      : "";
 
-  return `
+    return `
 <a href="${article.url}" class="article-card-reference">
   <div class="article-card-image-reference">
     <img src="/images/articles/eyecatches/600px/${eyecatch}" alt="${article.title}のアイキャッチ画像" class="card-image-reference" loading="lazy">
@@ -294,7 +335,7 @@ module.exports = function (eleventyConfig) {
     </div>
   </div>
 </a>`;
-});
+  });
 
   // ==========================
   // サイト情報（グローバルデータ）

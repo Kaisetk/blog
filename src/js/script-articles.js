@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
   generateTOC();
-  renderRelatedArticles();
   hideLoading();
 });
 
@@ -61,20 +60,4 @@ function generateSafeId(text) {
     .replace(/\s+/g, '-')                  // 空白 → ハイフン
     .replace(/[^\w\-ぁ-んァ-ン一-龥]/g, '') // 記号除去（日本語は許可）
     .toLowerCase();
-}
-
-// =========================
-// 関連記事描画
-// =========================
-function renderRelatedArticles() {
-  if (!window.ARTICLES || !window.RELATED_IDS) return;
-
-  const relatedArticles = window.ARTICLES.filter(a =>
-    window.RELATED_IDS.includes(a.id)
-  );
-
-  const articlesList = document.getElementById("articles_list");
-  if (!articlesList) return;
-
-  renderArticlesGrid(articlesList, { articles: relatedArticles });
 }
