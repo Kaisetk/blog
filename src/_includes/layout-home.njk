@@ -46,12 +46,6 @@
         <a href="/articles-list/" class="more-link">もっと見る</a>
       </div>
 
-      {% set featured_daily = [
-      "online-shopping-smart-choices",
-      "rakuten-mobile-fee",
-      "book-cost-saving"
-      ] %}
-
       <h3 class="contents-title">日常生活をお得にする注目記事</h3>
       <ul id="featured_daily" class="articles_list">
         {% for article in collections.featuredArticles["daily-life"] %}
@@ -61,13 +55,6 @@
       <div class="more-link-wrapper">
         <a href="/articles-list/category/daily-life/" class="more-link">もっと見る</a>
       </div>
-
-      {% set featured_trip = [
-      "lcc-flight-baggage",
-      "lcc-options-worth-it",
-      "stay-at-airport"
-      ] %}
-
 
       <h3 class="contents-title">旅行をお得にする注目記事</h3>
       <ul id="featured_trip" class="articles_list">
