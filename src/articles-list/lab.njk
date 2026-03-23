@@ -1,0 +1,10 @@
+---
+layout: layout-articles-list-lab.njk
+title: "Otoku Choicesのブログ運営日記"
+description: Otoku Choicesのブログ運営日記です。「お得系ブログを運営する者として、ブログもなるべくお得に運営すべき」という執念（？）から、初年度は0円で運営しています。運営方法やオーナーの試行錯誤など、本ブログ運営の裏側をお伝えします。
+pagination:
+  data: collections.lab
+  size: 12         # 1ページあたりの記事数
+  alias: pageArticles
+permalink: "{% if pagination.pageNumber == 0 %}/articles-list/lab/index.html{% else %}/articles-list/lab/page/{{ pagination.pageNumber + 1 }}/index.html{% endif %}"
+---

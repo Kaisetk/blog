@@ -114,8 +114,6 @@
           {{ content | safe }}
         </article>
 
-        {% if category %}
-
         {% include "parts-share.njk" %}
 
         <div class="ad-section">
@@ -158,16 +156,22 @@
           </div>
         </div>
 
+
         <footer class="article-footer">
+          {% set related = collections.relatedArticles(tags, page.fileSlug) %}
+          {% if related.length > 0 %}
           <h3 class="contents-title">関連記事</h3>
 
           <!--関連記事-->
           <ul id="articles_list" class="articles_list">
-            {% set related = collections.relatedArticles(tags, page.fileSlug) %}
             {% for article in related %}
             {% include "parts-articles-list.njk" %}
             {% endfor %}
           </ul>
+
+          {% endif %}
+
+          {% if category %}
 
           <div class="search-suggestions">
             <h3>ほかの記事も読んでみる</h3>
@@ -193,9 +197,26 @@
               </a>
             </div>
           </div>
+
+          {% else %}
+          <div class="search-suggestions">
+            <h3>運営日記の記事を探す</h3>
+            <a href="/articles-list/lab/" class="category-link">＞運営日記の記事一覧</a>
+            <h3>Otoku Choicesの記事を探す</h3>
+            <div class="categories-suggestion">
+              <a href="/articles-list/" class="category-link">＞記事一覧</a>
+              <h4>カテゴリ別に記事を探す</h4>
+              {% for cat in slugs.category %}
+              <a href="/articles-list/category/{{ cat.id | url }}/" class="category-link">
+                ＞{{ cat.name }}をお得に
+              </a>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
         </footer>
   </div>
-  {% endif %}
+
   </div>
   </article>
   </main>

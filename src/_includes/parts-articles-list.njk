@@ -20,7 +20,9 @@
 
       <div class="card-footer">
         <span class="category">
-          {{ article.category | getCategoryName(slugs) }}
+          {% if article.category %}{{ article.category | getCategoryName(slugs) }}
+          {% elseif article.lab %}ブログ運営
+          {% endif %}
         </span>
 
         {% if article.tags %}

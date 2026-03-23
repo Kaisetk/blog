@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  {% include "head.njk" %}
+  {% include "og-website.njk" %}
+
+  <link rel="canonical" href="{{site.url}}{{page.url}}">
+  <link rel="stylesheet" href="/css/style-grid.css">
+  <link rel="stylesheet" href="/css/style-article-list.css">
+
+  <script src="/js/script-layout-main.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{ title }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "numberOfItems": {{ pagination.items | length }},
+    "itemListElement": [
+      {% for article in pagination.items %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "url": "{{ site.url }}/articles/{{ article.id }}/",
+        "name" : "{{ article.title }}",
+        "description" : "{{ article.intro }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    {% include "header.njk" %}
+    <main>
+
+      <!-- パンくずリスト -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">ホーム</a>
+        <span class="gt"> &gt; </span>
+        <a href="/articles-list/">記事一覧</a>
+        <span class="gt">&rsaquo;</span>
+        <span id="breadcrumb-current-container">
+          ブログ運営
+        </span>
+      </nav>
+
+      <!-- 見出し -->
+      <h1 id="page-title">Otoku Choicesのブログ運営日記</h1>
+
+      <div class="category-description">{{ description | safe }}</div>
+
+      {# 現在のページ数を上に表示 #}
+      <p class="pagination-status">
+        ページ {{ pagination.pageNumber + 1 }} / {{ pagination.pages.length }}
+      </p>
+
+      <!-- 記事リスト -->
+      <div class="articles_list">
+        {% for article in pagination.items %}
+        {% include "parts-articles-list.njk" %}
+        {% endfor %}
+      </div>
+
+      <p class="pagination-status">
+        ページ {{ pagination.pageNumber + 1 }} / {{ pagination.pages.length }}
+      </p>
+      <div class="pagination">
+        {# 最初 / 最後リンク #}
+        {% if pagination.pageNumber > 0 %}
+        <a href="{{ pagination.href.first }}" class="first">« 最初</a>
+        {% endif %}
+
+        {# ページ番号 ±2、最大5表示 #}
+        {% set maxDisplay = 5 %}
+        {% set totalPages = pagination.pages.length %}
+        {% set start = pagination.pageNumber - 2 %}
+        {% set end = pagination.pageNumber + 2 %}
+        {% if start < 0 %} {% set end=end + (0 - start) %} {% set start=0 %} {% endif %} {% if end> totalPages - 1 %} {%
+          set start = start - (end - (totalPages - 1)) %} {% set end = totalPages - 1 %} {% endif %}
+          {% if start < 0 %} {% set start=0 %} {% endif %} {% for i in pagination.pages %} {% set pageNum=loop.index0 %}
+            {% if pageNum>= start and pageNum <= end %} {% if pageNum==pagination.pageNumber %} <span class="current">{{
+              pageNum + 1 }}</span>
+              {% else %}
+              <a href="{{ pagination.hrefs[pageNum] }}">{{ pageNum + 1 }}</a>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+
+              {% if pagination.pageNumber < pagination.pages.length - 1 %} <a href="{{ pagination.href.last }}"
+                class="last">最後 »</a>
+                {% endif %}
+      </div>
+
+
+      <div class="search-suggestions">
+        <h3>Otoku Choicesの記事一覧へもどる</h3>
+        <div class="categories-suggestion">
+        <a href="/articles-list/" class="category-link">＞記事一覧</a>
+          <h4>カテゴリ別記事一覧へもどる</h4>
+          {% for cat in slugs.category %}
+          <a href="/articles-list/category/{{ cat.id | url }}/" class="category-link">
+            ＞{{ cat.name }}をお得に
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+
+    </main>
+    {% include "footer.njk" %}
+  </div>
+
+</body>
+
+</html>

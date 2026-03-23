@@ -117,7 +117,8 @@ module.exports = function (eleventyConfig) {
         tags: item.data.tags,
         intro: item.data.intro,
         url: item.url,
-        date: item.data.date
+        date: item.data.date,
+        lab: item.data.lab || false
       })); // 必要な情報だけ返す
   });
 
@@ -133,7 +134,8 @@ module.exports = function (eleventyConfig) {
         category: item.data.category,
         tags: item.data.tags,
         intro: item.data.intro,
-        date: item.data.date
+        date: item.data.date,
+        lab: item.data.lab || false
       }));
   });
 
@@ -152,11 +154,28 @@ module.exports = function (eleventyConfig) {
           tags: item.data.tags,
           intro: item.data.intro,
           url: item.url,
-          date: item.data.date
+          date: item.data.date,
+          lab: false
         }));
     });
   });
 
+  eleventyConfig.addCollection("lab", collectionApi => {
+    return collectionApi.getAll()
+      .filter(item => item.data.released && item.data.lab)
+      .sort((a, b) => new Date(b.data.released) - new Date(a.data.released))
+      .map(item => ({
+        id: item.fileSlug,
+        title: item.data.title,
+        eyecatch: item.data.eyecatch,
+        category: item.data.category,
+        tags: item.data.tags,
+        intro: item.data.intro,
+        url: item.url,
+        date: item.data.date,
+        lab: item.data.lab || false
+      }));
+  });
 
   eleventyConfig.addCollection("articlesByTag", function (collectionApi) {
     const allArticles = collectionApi.getAll().filter(item => item.data.released);
@@ -215,7 +234,8 @@ module.exports = function (eleventyConfig) {
           tags: item.data.tags,
           intro: item.data.intro,
           url: item.url,
-          date: item.data.date
+          date: item.data.date,
+          lab: item.data.lab || false
         };
 
       }).filter(Boolean);
@@ -253,7 +273,8 @@ module.exports = function (eleventyConfig) {
           tags: item.data.tags,
           intro: item.data.intro,
           url: item.url,
-          date: item.data.date
+          date: item.data.date,
+          lab: item.data.lab || false
         }));
 
     };
