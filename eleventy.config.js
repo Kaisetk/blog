@@ -245,39 +245,52 @@ module.exports = function (eleventyConfig) {
     return result;
   });
 
-  eleventyConfig.addCollection("relatedArticles", function (collectionApi) {
+  // 関連記事（手動＋自動）
+  eleventyConfig.addFilter("relatedArticles", function (all, currentTags = [], currentSlug = "", manualSlugs = [], limit = 3) {
 
-    return function (tags = [], currentSlug = "", limit = 3) {
+    // --- ① 手動関連記事 ---
+    const manual = (manualSlugs || [])
+      .map(slug => all.find(item => item.fileSlug === slug))
+      .filter(Boolean);
 
-      const all = collectionApi.getAll();
+    // --- ② 自動関連記事（タグ一致ベース） ---
+    const auto = all
+      .filter(item => item.fileSlug !== currentSlug)
+      .map(item => {
+        const itemTags = item.data.tags || [];
 
-      return all
-        .filter(item => {
-          // 自分自身は除外
-          if (item.fileSlug === currentSlug) return false;
+        // 一致数カウント
+        const matchCount = currentTags.filter(tag => itemTags.includes(tag)).length;
 
-          // タグが1つでも一致したらOK
-          const itemTags = item.data.tags || [];
-          return tags.some(tag => itemTags.includes(tag));
-        })
-        // 新しい順（お好みで）
-        .sort((a, b) => b.date - a.date)
-        // 件数制限
-        .slice(0, limit)
-        // 必要なデータだけ整形
-        .map(item => ({
-          id: item.fileSlug,
-          title: item.data.title,
-          eyecatch: item.data.eyecatch,
-          category: item.data.category,
-          tags: item.data.tags,
-          intro: item.data.intro,
-          url: item.url,
-          date: item.data.date,
-          lab: item.data.lab || false
-        }));
+        return { ...item, matchCount };
+      })
+      .filter(item => item.matchCount > 0)
+      .sort((a, b) => {
+        if (b.matchCount !== a.matchCount) {
+          return b.matchCount - a.matchCount;
+        }
+        return new Date(b.date) - new Date(a.date);
+      });
 
-    };
+    // --- ③ マージ（重複除去） ---
+    const merged = [...manual, ...auto]
+      .filter((item, index, self) =>
+        index === self.findIndex(i => i.fileSlug === item.fileSlug)
+      )
+      .slice(0, limit);
+
+    // --- ④ 整形 ---
+    return merged.map(item => ({
+      id: item.fileSlug,
+      title: item.data.title,
+      eyecatch: item.data.eyecatch,
+      category: item.data.category,
+      tags: item.data.tags,
+      intro: item.data.intro,
+      url: item.url,
+      date: item.data.date
+    }));
+
   });
 
 

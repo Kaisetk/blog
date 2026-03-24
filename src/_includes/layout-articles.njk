@@ -158,17 +158,18 @@
 
 
         <footer class="article-footer">
-          {% set related = collections.relatedArticles(tags, page.fileSlug) %}
-          {% if related.length > 0 %}
+
+          {% set relatedArticlesList = collections.all
+          | relatedArticles(tags, page.fileSlug, related, 3) %}
+
+          {% if relatedArticlesList and relatedArticlesList.length > 0 %}
           <h3 class="contents-title">関連記事</h3>
 
-          <!--関連記事-->
           <ul id="articles_list" class="articles_list">
-            {% for article in related %}
+            {% for article in relatedArticlesList %}
             {% include "parts-articles-list.njk" %}
             {% endfor %}
           </ul>
-
           {% endif %}
 
           {% if category %}
