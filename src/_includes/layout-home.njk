@@ -66,6 +66,16 @@
         <a href="/articles-list/category/trip/" class="more-link">もっと見る</a>
       </div>
 
+      <h3 class="contents-title">まずはここから始めよう！節約初心者向けおすすめ記事</h3>
+      <ul id="featured_bigginer" class="articles_list">
+        {% for article in collections.featuredArticles["bigginer"] %}
+        {% include "parts-articles-list.njk" %}
+        {% endfor %}
+      </ul>
+      <div class="more-link-wrapper">
+        <a href="/articles-list/category/daily-life/" class="more-link">もっと見る</a>
+      </div>
+
       <div class="search-suggestions">
         <h3>記事をさがす</h3>
         {% include "parts-suggestion.njk" %}

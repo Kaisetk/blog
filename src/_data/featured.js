@@ -1,8 +1,13 @@
 module.exports = {
+  "bigginer":[
+    "online-shopping-smart-choices",
+    "strategic-point-earning",
+    "point-activity-mistakes"
+  ],
   "daily-life": [
-      "online-shopping-smart-choices",
       "rakuten-mobile-fee",
-      "book-cost-saving"
+      "book-cost-saving",
+      "manage-video-streaming-services"
   ],
   "trip": [
       "lcc-flight-baggage",
