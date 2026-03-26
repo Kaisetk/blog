@@ -1,5 +1,5 @@
 module.exports = {
-  "bigginer":[
+  "beginner":[
     "online-shopping-smart-choices",
     "strategic-point-earning",
     "point-activity-mistakes"
