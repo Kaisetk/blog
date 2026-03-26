@@ -11,10 +11,11 @@
   --color-breadcrumb-sep: lightgray;
   --color-header-footer-link: #424141;
   --color-bland:#1f6f5e;
-  --color-bland-light: #f6fbf9;
-  --color-bland-soft: #e3f2ee;
-  --color-bland-soft2: #cfe7e1;
-  --color-bland-mid: #8fc3b7;
+  --color-bland-light: #f7fcfa;
+  --color-bland-pale: #eef8f4;
+  --color-bland-soft: #e5f3ef;
+  --color-bland-soft2: #bddfd6;
+  --color-bland-mid: #73b1a2;
 }
 
 /* ======================================
