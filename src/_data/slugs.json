@@ -17,6 +17,7 @@
     { "id": "transportation", "name": "交通手段" },
     { "id": "train", "name": "電車・鉄道" },
     { "id": "car-rental", "name": "レンタカー" },
+    { "id": "overnight-bus", "name": "夜行バス" },
     { "id": "beginner", "name": "初心者" },
     { "id": "event", "name": "イベント" },
     { "id": "asia", "name": "アジア" },
@@ -34,6 +35,7 @@
     { "id": "saving-money", "name": "貯蓄・資産形成" },
     { "id": "subscriptions", "name": "サブスクリプション" },
     { "id": "video-streaming", "name": "動画配信" },
-    { "id": "music-streaming", "name": "音楽配信" }
+    { "id": "music-streaming", "name": "音楽配信" },
+    { "id": "clothing", "name": "洋服・ファッション" }
   ]
 }

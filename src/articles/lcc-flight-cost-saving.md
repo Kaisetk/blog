@@ -5,7 +5,7 @@ eyecatch: airplane.webp
 date: 2026-03-24
 released: 2026-03-24
 category: trip
-tags: [flights, cheap-flights, baggage, beginner, overseas-trip, japan-trip, airport]
+tags: [flights, cheap-flights, baggage, beginner, overseas-trip, japan-trip, transportation]
 doesContainAds: true
 intro: 本記事では、筆者のLCC利用経験をもとに、LCCのフライトを安く利用するためにすべきことを、5点に絞って初心者向けに解説します。安いイメージのあるLCCですが、その分有料オプションや前泊の有無、手荷物の規定超過などの落とし穴も多く、「意外と高くなってしまった…」といったことも少なくありません。本記事を参考に、ベストな航空券を探してみてください。
 related: [lcc-options-worth-it, lcc-baggage-fees, lcc-flight-baggage]
