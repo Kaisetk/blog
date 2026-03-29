@@ -70,8 +70,8 @@ related: [lcc-options-worth-it, airport-lounge-saving-hack, lcc-flight-baggage]
 筆者も機内でも使いやすい首枕を持参していたので堅い椅子でも多少は楽に過ごせたかなと思います。
 
 {% shopcard
-'<a href="https://hb.afl.rakuten.co.jp/ichiba/50cf9c69.8b389d19.50cf9c6a.0db511fb/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F4382e41b47a7332b418b36801d9a09c1%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjEsImFtcCI6ZmFsc2V9" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/519ea1cc.6607fe4c.519ea1cd.6e0a018a/?me_id=1206081&item_id=10023768&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Falamode%2Fcabinet%2Fmarna_p5%2F3154-0290.jpg%3F_ex%3D300x300&s=300x300&t=pict" border="0" style="margin:2px" alt="" title=""></a>',
-"https://hb.afl.rakuten.co.jp/ichiba/50cf9c69.8b389d19.50cf9c6a.0db511fb/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F4382e41b47a7332b418b36801d9a09c1%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjEsImFtcCI6ZmFsc2V9",
+'<a href="https://hb.afl.rakuten.co.jp/ichiba/50cf9c69.8b389d19.50cf9c6a.0db511fb/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F4382e41b47a7332b418b36801d9a09c1%2F&link_type=pict&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0Iiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjowLCJib3IiOjAsImNvbCI6MSwiYmJ0biI6MSwicHJvZCI6MSwiYW1wIjpmYWxzZX0%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/519ea1cc.6607fe4c.519ea1cd.6e0a018a/?me_id=1206081&item_id=10023768&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Falamode%2Fcabinet%2Fmarth1%2F3154-0290.jpg%3F_ex%3D300x300&s=300x300&t=pict" border="0" style="margin:2px" alt="" title=""></a>',
+"https://hb.afl.rakuten.co.jp/ichiba/50cf9c69.8b389d19.50cf9c6a.0db511fb/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F4382e41b47a7332b418b36801d9a09c1%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjMwMHgzMDAiLCJuYW0iOjEsIm5hbXAiOiJkb3duIiwiY29tIjoxLCJjb21wIjoiZG93biIsInByaWNlIjowLCJib3IiOjAsImNvbCI6MSwiYmJ0biI6MSwicHJvZCI6MSwiYW1wIjpmYWxzZX0%3D",
 "https://yahoo.jp/PFsu_A"
 %}
 
@@ -167,6 +167,10 @@ related: [lcc-options-worth-it, airport-lounge-saving-hack, lcc-flight-baggage]
 %}
 
 また、暇つぶしに使うスマホやPCを充電したい方は、充電器を持っていくことをおすすめします。
+
+空港泊にあると良い持ち物については、以下記事でも解説しておりますので、ぜひご覧ください。
+
+{% article "overnight-bus-essentials" %}
 
 ### 必ずアラームをかけて寝よう
 

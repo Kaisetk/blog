@@ -14,7 +14,6 @@
     { "id": "hotel", "name": "ホテル" },
     { "id": "ryokan", "name": "旅館" },
     { "id": "gourmet", "name": "グルメ・食事" },
-    { "id": "transportation", "name": "交通手段" },
     { "id": "train", "name": "電車・鉄道" },
     { "id": "car-rental", "name": "レンタカー" },
     { "id": "overnight-bus", "name": "夜行バス" },
@@ -36,6 +35,6 @@
     { "id": "subscriptions", "name": "サブスクリプション" },
     { "id": "video-streaming", "name": "動画配信" },
     { "id": "music-streaming", "name": "音楽配信" },
-    { "id": "clothing", "name": "洋服・ファッション" }
+    { "id": "clothing", "name": "衣服" }
   ]
 }
