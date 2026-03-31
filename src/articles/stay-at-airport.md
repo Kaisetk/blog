@@ -1,13 +1,13 @@
 ---
 layout: layout-articles.njk
-title: 【体験記】羽田空港で空港泊してみた｜女性一人・早朝LCCの前泊節約
+title: 【体験記】羽田空港で一晩空港泊してみた｜女性一人・早朝LCCの前泊節約
 eyecatch: airport.webp
-date: 2026-03-27
+date: 2026-03-31
 released: 2026-03-06
 category: trip
 tags: [flights, cheap-flights, overseas-trip, japan-trip, hotel, airport]
 doesContainAds: true
-intro: この記事では、前泊費用を節約するために、筆者が実際に羽田空港第3ターミナルで一晩過ごした空港泊（空港宿泊）の体験談をご紹介します。女性一人で早朝LCCの空港泊を決行した体験談を中心に、少しでも快適に過ごすコツ、安全面で気をつけたい点もまとめました。ホテル前泊を避けることで数千円〜1万円ほど節約できることもあるため、空港近くでの前泊や空港泊を検討している方の参考になれば幸いです。
+intro: この記事では、前泊費用を節約するために、筆者が羽田空港第3ターミナルで一晩過ごした空港泊（空港宿泊）の体験談をご紹介します。女性一人で、早朝LCCの空港泊を決行した体験談を中心に、少しでも快適に過ごすコツ、安全面で気をつけたい点もまとめました。ホテル前泊を避けることで数千円〜1万円ほど節約できることもあるため、空港近くでの前泊や空港泊を検討している方の参考になれば幸いです。
 related: [lcc-options-worth-it, airport-lounge-saving-hack, lcc-flight-baggage]
 
 ---
