@@ -2,7 +2,7 @@
 layout: layout-articles.njk
 title: 【体験記】羽田空港で一晩空港泊してみた｜女性一人・早朝LCCの前泊節約
 eyecatch: airport.webp
-date: 2026-03-31
+date: 2026-04-10
 released: 2026-03-06
 category: trip
 tags: [flights, cheap-flights, overseas-trip, japan-trip, hotel, airport]
@@ -170,7 +170,7 @@ related: [lcc-options-worth-it, airport-lounge-saving-hack, lcc-flight-baggage]
 
 空港泊にあると良い持ち物については、以下記事でも解説しておりますので、ぜひご覧ください。
 
-{% article "overnight-bus-essentials" %}
+{% article "airport-overnight-essentials" %}
 
 ### 必ずアラームをかけて寝よう
 
