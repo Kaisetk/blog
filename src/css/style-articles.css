@@ -259,6 +259,8 @@
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   transition: border-color 0.15s ease, color 0.15s ease;
+  font-weight: bold;
+  font-size: medium;
 }
 
 #article-content a:not(:has(img)):not(.shop-btn):hover {
