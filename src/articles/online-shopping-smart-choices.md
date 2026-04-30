@@ -177,10 +177,4 @@ ECサイト選びは「最安を探す作業」ではなく、「仕組みで得
     <img src="https://hbb.afl.rakuten.co.jp/hsb/51a5be7f.4ff752ca.50d25d06.088b928e/?me_id=1&me_adv_id=2794901&t=pict" border="0" style="margin:2px" alt="" title="">
   </a>
 
-  <a href="//af.moshimo.com/af/c/click?a_id=5408551&p_id=1225&pc_id=1925&pl_id=18518&url=https%3A%2F%2Fyahoo.co.jp" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>
-    <img src="https://image.moshimo.com/af-img/0349/000000018518.jpg" style="border:none;" alt="">
-  </a>
-
-  <img src="//i.moshimo.com/af/i/impression?a_id=5408551&p_id=1225&pc_id=1925&pl_id=18518" width="1" height="1" style="border:none;" alt="" loading="lazy">
-
 </div>
