@@ -804,3 +804,76 @@ tr:nth-child(even):not(:has(img)) {
   gap: 10px;
   justify-content: center;
 }
+
+/**
+ホテルカード
+*/
+
+.hotel-search {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px;
+  margin: 8px 0;
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  max-width: 600px;
+}
+
+/* タイトル */
+.hotel-search-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* ボタン共通 */
+.hotel-btn {
+  display: block;
+  width: 100%;
+
+  /* ←重要 */
+  box-sizing: border-box;
+
+  text-align: center;
+  padding: 10px 12px;
+
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+
+  text-decoration: none;
+  color: #111827;
+
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+
+  transition:
+    background 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+/* hover */
+.hotel-btn:hover {
+  background: #f3f4f6;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* 各サービスは“色で塗らない”で左ラインだけ */
+.hotel-btn.rakuten {
+  border-left: 4px solid #16a34a;
+}
+
+.hotel-btn.expedia {
+  border-left: 4px solid #f59e0b;
+}
+
+.hotel-btn.yahoo {
+  border-left: 4px solid #e11d48;
+}
+
+.hotel-btn.agoda {
+  border-left: 4px solid #5218da;
+}

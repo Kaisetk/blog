@@ -335,6 +335,20 @@ module.exports = function (eleventyConfig) {
 `;
   });
 
+  eleventyConfig.addShortcode("hotelsearch", function (keyword, expedia, agoda, rakuten, yahoo) {
+    return `
+    <div class="hotel-search">
+      <p class="hotel-search-title">${keyword}付近のホテルを探す</p>
+      <div class="hotel-search-buttons">
+        ${expedia ? `<a href="${expedia}" class="hotel-btn expedia" target="_blank" rel="noopener">Expediaで探す</a>` : ""}
+        ${agoda ? `<a href="${agoda}" class="hotel-btn agoda" target="_blank" rel="noopener">Agodaで探す</a>` : ""}
+        ${rakuten ? `<a href="${rakuten}" class="hotel-btn rakuten" target="_blank" rel="noopener">楽天トラベルで探す</a>` : ""} 
+        ${yahoo ? `<a href="${yahoo}" class="hotel-btn yahoo" target="_blank" rel="noopener">Yahoo!トラベルで探す</a>` : ""}
+      </div>
+    </div>
+  `;
+  });
+
   eleventyConfig.addShortcode("shopsearch", function (keyword, rakutenUrl, yahooUrl) {
     return `
     <div class="shop-search-card">
