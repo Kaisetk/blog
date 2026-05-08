@@ -172,3 +172,5 @@ LCCは航空券が安い反面、手荷物ルールを知らないと追加料�
 LCCの手荷物料金をなるべく減らすコツも開設しています。こちらの記事をご覧ください。
 
 {% article "lcc-flight-baggage" %}
+
+<a href="https://hb.afl.rakuten.co.jp/hsc/517d12ea.ebb07e19.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOiIyOSIsImJhbiI6MjE4ODY4OCwiYW1wIjpmYWxzZX0%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hsb/517d12ea.ebb07e19.50d25d06.088b928e/?me_id=2100001&me_adv_id=2188688&t=pict" border="0" style="margin:2px" alt="" title=""></a>
