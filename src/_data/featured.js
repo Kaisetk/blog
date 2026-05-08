@@ -10,8 +10,13 @@ module.exports = {
       "manage-video-streaming-services"
   ],
   "trip": [
-      "lcc-flight-baggage",
+      "stay-at-airport",
+      "airport-lounge-saving-hack",
       "lcc-options-worth-it",
-      "stay-at-airport"
-  ]
+  ],
+    "lcc": [
+      "lcc-flight-cost-saving",
+      "lcc-baggage-fees",
+      "lcc-flight-baggage"
+  ],
 };

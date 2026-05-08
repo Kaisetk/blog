@@ -20,7 +20,7 @@ related: [lcc-options-worth-it, lcc-baggage-fees, lcc-flight-baggage]
 
 候補を探す際は、**必ず複数のサイトで比較**しましょう。1サイトだけで決めてしまうと、数千円〜場合によっては一万円以上損することもあります。また、空港周辺のホテルは日によって価格差が大きいため、事前に確認しておくのがおすすめです。
 
-航空券の比較サイト様々あり、国内外のチケットで<a href="https://hb.afl.rakuten.co.jp/hsc/517d12ea.ebb07e19.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天トラベル</a>も使えます。
+航空券の比較サイトは様々あり、国内外のチケットで<a href="https://hb.afl.rakuten.co.jp/hsc/517d12ea.ebb07e19.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天トラベル</a>も使えます。
 
 また、海外旅行であれば、<a href="https://px.a8.net/svt/ejp?a8mat=4AZPOO+7B5M5U+DRA+1HMXW2" rel="nofollow">海外格安航空券予約サイト-skyticket.jp-</a>
 <amp-pixel src="https://www12.a8.net/0.gif?a8mat=4AZPOO+7B5M5U+DRA+1HMXW2" layout="nodisplay"></amp-pixel>、国内旅行であれば<A href="https://px.a8.net/svt/ejp?a8mat=4AZ709+5K1O1E+AD2+60WN6" rel="nofollow">エアトリ</A><amp-pixel src="https://www17.a8.net/0.gif?a8mat=4AZ709+5K1O1E+AD2+60WN6" layout="nodisplay"></amp-pixel>などのサイトを活用するのも効率的です。

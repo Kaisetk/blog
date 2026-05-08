@@ -76,6 +76,16 @@
         <a href="/articles-list/tag/beginner/" class="more-link">もっと見る</a>
       </div>
 
+      <h3 class="contents-title">燃料高でも旅行したい！LCC利用を安くするおすすめ記事</h3>
+      <ul id="featured_lcc" class="articles_list">
+        {% for article in collections.featuredArticles["lcc"] %}
+        {% include "parts-articles-list.njk" %}
+        {% endfor %}
+      </ul>
+      <div class="more-link-wrapper">
+        <a href="/articles-list/tag/cheap-flights/" class="more-link">もっと見る</a>
+      </div>
+
       <div class="search-suggestions">
         <h3>記事をさがす</h3>
         {% include "parts-suggestion.njk" %}
