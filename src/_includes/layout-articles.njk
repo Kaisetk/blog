@@ -90,7 +90,18 @@
         {% if eyecatch or intro %}
         <div class="article-visual-block">
           {% if eyecatch %}
-          <img src="/images/articles/eyecatches/1200px/{{ eyecatch }}" alt="{{ title }}">
+          <picture class="article-eyecatch">
+            <!-- スマホ -->
+            <source media="(max-width: 600px)" srcset="/images/articles/eyecatches/600px/{{ eyecatch }}"
+              type="image/webp">
+
+            <!-- タブレット以上 -->
+            <source media="(min-width: 601px)" srcset="/images/articles/eyecatches/1200px/{{ eyecatch }}"
+              type="image/webp">
+
+            <!-- fallback -->
+            <img src="/images/articles/eyecatches/1200px/{{ eyecatch }}" alt="{{ title }}" loading="eager" fetchpriority="high">
+          </picture>
           {% endif %}
 
           {% if intro %}
