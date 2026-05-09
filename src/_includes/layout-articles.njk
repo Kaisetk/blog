@@ -100,7 +100,7 @@
               type="image/webp">
 
             <!-- fallback -->
-            <img src="/images/articles/eyecatches/1200px/{{ eyecatch }}" alt="{{ title }}" fetchpriority="high">
+            <img src="/images/articles/eyecatches/1200px/{{ eyecatch }}" alt="{{ title }}" fetchpriority="high" decoding="async">
           </picture>
           {% endif %}
 
@@ -124,6 +124,8 @@
         <article id="article-content">
           {{ content | safe }}
         </article>
+
+        {% if category %}
 
         {% include "parts-share.njk" %}
 
@@ -182,8 +184,6 @@
             {% endfor %}
           </ul>
           {% endif %}
-
-          {% if category %}
 
           <div class="search-suggestions">
             <h3>ほかの記事も読んでみる</h3>
