@@ -338,12 +338,26 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("hotelsearch", function (keyword, expedia, agoda, rakuten, yahoo) {
     return `
     <div class="hotel-search">
-      <p class="hotel-search-title">${keyword}付近のホテルを探す</p>
+      <p class="hotel-search-title">${keyword ? `${keyword}のホテルを探す` : `ホテルを探す`}</p>
       <div class="hotel-search-buttons">
         ${expedia ? `<a href="${expedia}" class="hotel-btn expedia" target="_blank" rel="noopener">Expediaで探す</a>` : ""}
         ${agoda ? `<a href="${agoda}" class="hotel-btn agoda" target="_blank" rel="noopener">Agodaで探す</a>` : ""}
         ${rakuten ? `<a href="${rakuten}" class="hotel-btn rakuten" target="_blank" rel="noopener">楽天トラベルで探す</a>` : ""} 
         ${yahoo ? `<a href="${yahoo}" class="hotel-btn yahoo" target="_blank" rel="noopener">Yahoo!トラベルで探す</a>` : ""}
+      </div>
+    </div>
+  `;
+  });
+
+  eleventyConfig.addShortcode("hotelsearchdefault", function (keyword) {
+    return `
+    <div class="hotel-search">
+      <p class="hotel-search-title">${keyword}ホテルを探す</p>
+      <div class="hotel-search-buttons">
+        <a href="https://expedia.com/affiliate/jzYQnxV" class="hotel-btn expedia" target="_blank" rel="noopener">Expediaで探す</a>
+        <a href="https://px.a8.net/svt/ejp?a8mat=4AZ709+4POK6Q+4X1W+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2F" class="hotel-btn agoda" target="_blank" rel="noopener">Agodaで探す</a>
+        <a href="https://hb.afl.rakuten.co.jp/hsc/53b9f939.6510da6d.50d25d06.088b928e/?link_type=hybrid_url&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJoeWJyaWRfdXJsIiwiY29sIjoxLCJjYXQiOiIxMjEiLCJiYW4iOjY5Nzk2MywiYW1wIjpmYWxzZX0%3D" class="hotel-btn rakuten" target="_blank" rel="noopener">楽天トラベルで探す</a>
+        <a href="https://px.a8.net/svt/ejp?a8mat=4AZ709+6NXPKI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252FikCo.ashx%253Fcosid%253Dy_a8net" class="hotel-btn yahoo" target="_blank" rel="noopener">Yahoo!トラベルで探す</a>
       </div>
     </div>
   `;

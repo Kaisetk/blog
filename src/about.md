@@ -2,7 +2,6 @@
 layout: layout-articles.njk
 title: Otoku Choices ブログ紹介
 description: Otoku Choices（オトクチョイス）は、暮らしと旅行を戦略的におトクにするための情報を発信するブログです。価格や広告に流されず、仕組みを理解して損しない選択を重ねることを目指しています。判断軸を整理し、再現性のある選び方をわかりやすくまとめています。
-needlinks: true
 ---
 
 ## ブログについて
