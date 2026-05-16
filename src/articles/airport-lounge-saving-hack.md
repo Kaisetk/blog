@@ -1,7 +1,7 @@
 ---
 layout: layout-articles.njk
 title: 空港ラウンジの使い方｜ゴールドカードのカードラウンジで節約する方法
-eyecatch: airport.webp
+eyecatch: atairport.webp
 date: 2026-04-24
 released: 2026-03-08
 category: trip
