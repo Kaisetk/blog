@@ -194,3 +194,7 @@ PAでの休憩時間は長くないことが多いため、仮にPAに銭湯施�
 
 乗る前に少し準備をしておくだけで、夜行バスのしんどさはかなり軽減しやすくなります。  
 特に初めて乗る方や、久しぶりに乗る方は、まずは必需品だけでもそろえておくと安心です。
+
+<a href="https://px.a8.net/svt/ejp?a8mat=4B3RV1+G9UK1E+AD2+3H2QRL" rel="nofollow">
+<img border="0" width="300" height="250" alt="" src="https://www29.a8.net/svt/bgt?aid=260516557984&wid=001&eno=01&mid=s00000001343021008000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4B3RV1+G9UK1E+AD2+3H2QRL" alt="">
