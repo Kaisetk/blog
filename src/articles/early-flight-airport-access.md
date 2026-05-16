@@ -38,9 +38,12 @@ related: [stay-at-airport]
 以下でそれぞれの方法を解説していきます。
 
 ::: note
-なお、羽田空港早朝便の場合は以下記事でも詳しく解説しています。
+羽田空港・成田空港早朝便の場合は、それぞれ別記事でも詳しく解説しています。あわせてご覧ください。
 
 {% article "haneda-early-flight-access" %}
+
+{% article "narita-early-flight-access" %}
+
 :::
 
 ## 1. 高速バス・夜行バス
