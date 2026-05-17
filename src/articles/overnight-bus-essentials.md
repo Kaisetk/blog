@@ -2,12 +2,12 @@
 layout: layout-articles.njk
 title: 夜行バスの持ち物ガイド｜失敗しない節約旅の準備リスト
 eyecatch: travel-items.webp
-date: 2026-04-10
+date: 2026-05-17
 released: 2026-03-29
 category: trip
 tags: [baggage, beginner, japan-trip, overnight-bus]
 doesContainAds: true
-intro: 移動費用や時間の節約になる夜行バスですが、座席が狭く、体が痛くなることも多いです。夜行バスは「寝られるかどうか」で翌日がかなり変わるので、工夫してなるべく快適に過ごしたいですよね。本記事では、夜行バスで少しでも快適に過ごすためにあると良い持ち物を、始めての方にもわかりやすく解説します。
+intro: 移動費用や時間の節約になる夜行バスですが、座席が狭く、体が痛くなることも多いです。夜行バスは「寝られるかどうか」で翌日がかなり変わるので、工夫してなるべく快適に過ごしたいですよね。本記事では、夜行バスで少しでも快適に過ごすためのおすすめグッズを、始めての方にもわかりやすく解説します。
 related: [inflight-overnight-essentials, airport-overnight-essentials]
 ---
 
@@ -19,7 +19,7 @@ related: [inflight-overnight-essentials, airport-overnight-essentials]
 そのため、何も対策しないと首・腰・足まわりがかなりつらくなりやすいです。
 また、同乗者のいびきや車内アナウンス、寒暖差などで思ったより眠りづく感じることもあります。
 
-本記事では、これらの不安を解消する観点も踏まえ、夜行バスであったらよいものを解説していきます。
+本記事では、これらの不安を解消する観点も踏まえ、夜行バスであると良い持ち物をを解説していきます。
 
 ## 必ず持っていくもの
 
