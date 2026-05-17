@@ -2,12 +2,12 @@
 layout: layout-articles.njk
 title: ネカフェ泊の持ち物ガイド｜失敗しない節約旅の準備リスト
 eyecatch: travel-items.webp
-date: 2026-04-10
+date: 2026-05-18
 released: 2026-04-10
 category: trip
 tags: [beginner, baggage, japan-trip]
 doesContainAds: true
-intro: 宿泊費を抑えやすいネカフェ泊ですが、快適に過ごすには少し準備が必要です。この記事では、エア枕や羽織、耳栓、洗面用品など、ネカフェ泊であると便利な持ち物と事前に確認しておきたいポイントをまとめました。
+intro: 宿泊費を抑えやすいネカフェ泊ですが、快適に過ごすには少し準備が必要です。この記事では、エア枕や羽織、耳栓、洗面用品など、ネカフェ泊を少しでも快適にするためにあると便利なおすすめグッズと、事前に確認しておきたいポイントをまとめました。
 related: [netcafe-vs-capsule-hotel]
 ---
 
