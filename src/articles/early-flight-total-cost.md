@@ -5,7 +5,7 @@ eyecatch: airport.webp
 date: 2026-06-04
 released: 2026-06-04
 category: trip
-tags: [airport, beginner, overseas-trip, japan-trip]
+tags: [flights, cheap-flights, beginner, overseas-trip, japan-trip]
 doesContainAds: true
 intro: 早朝便や深夜便は航空券が安いことも多い一方、前泊・後泊やタクシー代などの追加費用がかかる場合があります。航空券だけを見るとお得に見えても、総額では通常便のほうが安くなることも。本記事では、早朝・深夜便をトータル費用で比較する際のポイントを解説します。
 related: [early-flight-airport-access]
