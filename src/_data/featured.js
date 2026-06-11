@@ -7,11 +7,11 @@ module.exports = {
   "daily-life": [
       "rakuten-mobile-fee",
       "book-cost-saving",
-      "manage-video-streaming-services"
+      "rethink-clothing-expenses"
   ],
   "trip": [
       "stay-at-airport",
-      "airport-lounge-saving-hack",
+      "early-flight-airport-access",
       "lcc-options-worth-it",
   ],
     "lcc": [
