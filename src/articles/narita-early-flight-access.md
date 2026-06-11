@@ -1,8 +1,8 @@
 ---
 layout: layout-articles.njk
-title: 成田空港の始発で間に合わない早朝便｜おすすめアクセス方法まとめ
+title: 成田空港の早朝便で始発に間に合わないときは？おすすめの対処法6選
 eyecatch: departuregate.webp
-date: 2026-05-16
+date: 2026-06-11
 released: 2026-05-16
 category: trip
 tags: [airport, beginner, overseas-trip, japan-trip]
