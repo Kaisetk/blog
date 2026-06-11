@@ -1,8 +1,8 @@
 ---
 layout: layout-articles.njk
-title: ネカフェ泊とカプセル泊はどちらが安い？料金・快適さ・選び方を比較
+title: ネカフェとカプセルホテルはどっちがおすすめ？料金・快適さ・安全性を比較
 eyecatch: pillows.webp
-date: 2026-04-10
+date: 2026-06-11
 released: 2026-04-09
 category: trip
 tags: [japan-trip, hotel]
