@@ -1,6 +1,6 @@
 ---
 layout: layout-articles.njk
-title: ネカフェとカプセルホテルはどっちがおすすめ？料金・快適さ・安全性を比較
+title: ネカフェとカプセルホテルはどっちが安い？料金・快適さを比較
 eyecatch: pillows.webp
 date: 2026-06-11
 released: 2026-04-09
