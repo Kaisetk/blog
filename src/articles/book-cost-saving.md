@@ -1,6 +1,6 @@
 ---
 layout: layout-articles.njk
-title: 本を安く買う方法まとめ｜電子書籍・図書館・中古本で読書代を節約
+title: 本を安く買う・読む方法まとめ｜電子書籍・ポイント還元・図書館を活用
 eyecatch: books.webp
 date: 2026-06-11
 released: 2026-03-05
