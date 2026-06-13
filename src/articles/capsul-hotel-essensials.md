@@ -5,7 +5,7 @@ eyecatch: travel-items.webp
 date: 2026-06-13
 released: 2026-05-12
 category: trip
-tags: [beginner, baggage, travel-gear, capsule-hotel]
+tags: [beginner, baggage, hotel, travel-gear, capsule-hotel]
 doesContainAds: true
 intro: ホテルに比べ宿泊費が安いことから、節約旅行にうってつけのカプセルホテルやドミトリー。しかし、価格が安い分ホテルに比べて設備が少ない場合もあり、ホテル宿泊時と異なる準備が少し必要になります。初めてカプセルホテルやドミトリーに泊まる場合は、通常のホテルと勝手が違うため何を準備してよいか迷うかもしれません。この記事では、カプセルホテルやドミトリー宿泊時の持ち物や事前に確認しておきたいポイントをまとめました。
 related: [netcafe-vs-capsule-hotel]

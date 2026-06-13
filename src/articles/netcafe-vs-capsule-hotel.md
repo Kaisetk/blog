@@ -5,7 +5,7 @@ eyecatch: pillows.webp
 date: 2026-06-13
 released: 2026-04-09
 category: trip
-tags: [japan-trip, netcafe, capsule-hotel]
+tags: [japan-trip, netcafe, hotel, capsule-hotel]
 doesContainAds: true
 intro: 格安旅行者に人気のネットカフェとカプセルホテル。都市部ではどちらも選択肢が多く、どちらに泊まるべきか迷いやすいところです。この記事では、料金相場や快適さの違いをもとに、ネットカフェとカプセルホテルのどちらが安くなりやすいのか、またどんな人に向いているのかをわかりやすく解説します。
 related: [netcafe-overnight-essentials]

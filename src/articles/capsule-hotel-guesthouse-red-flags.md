@@ -5,7 +5,7 @@ eyecatch: guesthouse.webp
 date: 2026-06-13
 released: 2026-06-13
 category: trip
-tags: [capsule-hotel, japan-trip, overseas-trip]
+tags: [capsule-hotel, hotel, japan-trip, overseas-trip]
 doesContainAds: true
 intro: 安く泊まれることから人気のカプセルホテルやゲストハウスですが、設備やルールは通常のホテルとかなり異なります。口コミや写真を確認せずに予約すると、騒音や荷物管理、共用設備などが想像と違って後悔することもあります。本記事では、筆者が実際に予約時に確認しているポイントを紹介します。
 related: ["budget-hotel-red-flags"]
