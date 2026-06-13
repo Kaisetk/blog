@@ -5,7 +5,7 @@ eyecatch: airplane-travel.webp
 date: 2026-03-26
 released: 2026-02-23
 category: trip
-tags: [baggage, beginner, flights, cheap-flights, overseas-trip, japan-trip, airport]
+tags: [baggage, beginner, flights, cheap-flights, overseas-trip, japan-trip]
 doesContainAds: true
 intro: LCCでは受託手荷物・座席指定・機内食などが有料になるため、どこまで追加すべきか迷う方も多いでしょう。実際には必須ではないオプションも多く、知らずに追加すると数千円〜場合によっては数万円余計にかかることもあります。この記事では、LCC初心者や、どのオプションを付けるべきか迷う方に向けて、「本当に必要なオプション」を見分ける判断基準を、何度もLCCを利用してきた経験をもとにわかりやすく解説します。
 related: [lcc-flight-baggage, lcc-options-worth-it, lcc-baggage-fees]

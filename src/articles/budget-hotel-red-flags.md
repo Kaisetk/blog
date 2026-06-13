@@ -5,7 +5,7 @@ eyecatch: hotel_char.webp
 date: 2026-06-13
 released: 2026-06-13
 category: trip
-tags: [hotel, japan-trip, overseas-trip]
+tags: [hotel, ryokan, japan-trip, overseas-trip]
 doesContainAds: true
 intro: 旅行ではできるだけホテル代を抑えたいことも多いですが、安さだけで選ぶと「失敗した」と感じることもたまにあります。もちろん安くて快適なホテルも多いので、価格だけでなく、口コミや写真、立地などを確認してから予約することが大切です。本記事では、「安いけど少し不安な宿泊施設」を避けるために、筆者が実際に見ているポイントをまとめます。
 related: [netcafe-vs-capsule-hotel]

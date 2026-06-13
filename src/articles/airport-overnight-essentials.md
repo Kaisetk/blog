@@ -5,7 +5,7 @@ eyecatch: travel-items.webp
 date: 2026-05-17
 released: 2026-03-29
 category: trip
-tags: [airport, beginner, baggage, overseas-trip, japan-trip]
+tags: [airport, beginner, travel-gear, baggage, overseas-trip, japan-trip]
 doesContainAds: true
 intro: 本記事では、早朝便・深夜便の前後に空港泊を予定している方に向けて、空港泊を少しでも快適に過ごすためのおすすめグッズを解説します。空港泊では、機内泊や夜行バスと同じように快眠グッズが役立つ一方で、明るさ・寒さ・防犯対策など、空港ならではの準備も必要です。空港泊の持ち物に迷っている方は、ぜひ参考にしてみてください。
 related: [inflight-overnight-essentials]

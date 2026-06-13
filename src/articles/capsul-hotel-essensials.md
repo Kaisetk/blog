@@ -2,10 +2,10 @@
 layout: layout-articles.njk
 title: カプセルホテル・ドミトリー宿泊の持ち物ガイド｜失敗しない節約旅の準備リスト
 eyecatch: travel-items.webp
-date: 2026-05-12
+date: 2026-06-13
 released: 2026-05-12
 category: trip
-tags: [beginner, baggage, japan-trip, overseas-trip]
+tags: [beginner, baggage, travel-gear, capsule-hotel]
 doesContainAds: true
 intro: ホテルに比べ宿泊費が安いことから、節約旅行にうってつけのカプセルホテルやドミトリー。しかし、価格が安い分ホテルに比べて設備が少ない場合もあり、ホテル宿泊時と異なる準備が少し必要になります。初めてカプセルホテルやドミトリーに泊まる場合は、通常のホテルと勝手が違うため何を準備してよいか迷うかもしれません。この記事では、カプセルホテルやドミトリー宿泊時の持ち物や事前に確認しておきたいポイントをまとめました。
 related: [netcafe-vs-capsule-hotel]
@@ -105,6 +105,8 @@ related: [netcafe-vs-capsule-hotel]
 カプセルホテルやドミトリーは、施設によって設備、防音性、アメニティなどに大きく差が出ます。
 また、立地や時間帯により、周辺環境や利用客の雰囲気も変わります。
 なるべく安心・快適に宿泊するためには、店舗情報や口コミをチェックし、設備や雰囲気を比較しながら選ぶのがおすすめです。
+
+{% article "capsule-hotel-guesthouse-red-flags" %}
 
 ### 女性は女性専用フロアがおすすめ
 

@@ -5,7 +5,7 @@ eyecatch: travel-items.webp
 date: 2026-05-17
 released: 2026-03-29
 category: trip
-tags: [flights, beginner, baggage, overseas-trip, japan-trip]
+tags: [flights,travel-gear, beginner, baggage, overseas-trip, japan-trip]
 doesContainAds: true
 intro: 旅行や出張で機内泊をする場合、狭い座席で長時間過ごすことになるため、想像以上に疲れやすく、寝づらさを感じやすいです。少しでも眠れるかどうかで、到着後の過ごしやすさがかなり変わってきます。本記事では、機内泊を少しでも快適にするために準備しておきたい持ち物を解説します。
 related: [airport-overnight-essentials, lcc-flight-baggage, lcc-flight-cost-saving]

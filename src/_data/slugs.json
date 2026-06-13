@@ -23,6 +23,8 @@
     { "id": "travel-gear", "name": "旅行グッズ・アイテム" },
     { "id": "airport", "name": "空港" },
     { "id": "airport-lounge", "name": "空港ラウンジ" },
+    { "id": "netcafe", "name": "ネットカフェ" },
+    { "id": "capsule-hotel", "name": "カプセルホテル" },
 
     { "id": "mobile-fee", "name": "スマホ料金" },
     { "id": "mobile-sim", "name": "格安SIM" },
