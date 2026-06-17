@@ -40,12 +40,12 @@ related: []
 
 安いホテルを予約する時の注意点は、以下記事でも詳しく解説しています。
 {% article "budget-hotel-red-flags" %}
-
+{% article "capsule-hotel-guesthouse-red-flags" %}
 :::
 
 ### 行きたい観光地の入場料
 
-旅行中に行きたいのに「高いからやめておこうと**諦めた観光地は、後から後悔しやすい**ものです。
+行きたいのに「高いからやめておこう」と**諦めた観光地は、後から後悔しやすい**ものです。
 
 海外旅行は現地に行くまでの時間や費用も大きいため、多くの人にとっては頻繁に行けるものでもありません。
 「やっぱり行けば良かった」となるのであれば、行ける機会に行っておいたほうがよいでしょう。
@@ -58,6 +58,9 @@ related: []
 - **購入方法（電子チケット・紙など）や購入するサイトを変える**
 
 ことで安くなる可能性があります。
+
+観光地によっては、<a href="https://px.a8.net/svt/ejp?a8mat=4AZ7S6+2OG8S2+52F8+5YJRM" rel="nofollow">KKday</a><amp-pixel src="https://www14.a8.net/0.gif?a8mat=4AZ7S6+2OG8S2+52F8+5YJRM" layout="nodisplay"></amp-pixel>などの予約サイト経由でチケットを購入した方が安くなる場合もあります。
+
 特に入場料が高い観光スポットの場合は確認してみましょう。
 :::
 
@@ -110,7 +113,7 @@ related: []
 ::: point
 #### 👉️賢い節約方法
 
-- **ホテルこ朝食付きプランを比較する**
+- **ホテルの朝食付きプランを比較する**
 - **毎食レストランにしない**（屋台、軽食も活用する）
 :::
 
@@ -201,4 +204,6 @@ related: []
 
 節約するところにメリハリをつけて、後悔のない旅行プランを組んでみてください。
 
-<a href="https://hb.afl.rakuten.co.jp/hsc/54fc3ee1.ef114267.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOiIxIiwiYmFuIjoyMTg4NjQ2LCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hsb/54fc3ee1.ef114267.50d25d06.088b928e/?me_id=2100001&me_adv_id=2188646&t=pict" border="0" style="margin:2px" alt="" title=""></a>
+<a href="https://px.a8.net/svt/ejp?a8mat=4AZ7S6+2OG8S2+52F8+64Z8X" rel="nofollow">
+<img border="0" width="300" height="250" alt="" src="https://www25.a8.net/svt/bgt?aid=260303910162&wid=001&eno=01&mid=s00000023642001031000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=4AZ7S6+2OG8S2+52F8+64Z8X" alt="">
