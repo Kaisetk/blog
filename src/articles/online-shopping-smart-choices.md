@@ -1,15 +1,14 @@
 ---
-
 layout: layout-articles.njk
-title: Amazon・楽天どれが一番お得？失敗しないECサイトの選び方と使い分け
+title: ECサイトはどれを使うべき？Amazon・楽天・Yahoo!のおすすめ使い分け術
 eyecatch: onlineshopping.webp
-date: 2026-03-20
+date: 2026-06-17
 released: 2026-02-11
 category: daily-life
 tags: [e-commerce, beginner, coupon, point]
-intro: 本記事では、10年近く複数のECサイトを使い分けてきた筆者が、ECサイトをお得に使うための選び方をご紹介します。Amazon、楽天市場、Yahoo!ショッピング、ヨドバシ・ドット・コム、ZOZOTOWN、各メーカーやブランドの公式オンラインショップなど、世の中には大小さまざまなECサイトがありますが、皆さんはどのサイトを活用していますか？「何となくAmazonを使っている…」「どのサイトも違いがよくわからない」といった方は必見です。
+intro: Amazon、楽天市場、Yahoo!ショッピングなど、ECサイトはたくさんありますが、「結局どこを使うのがお得なの？」と迷う方も多いのではないでしょうか。実は、最もお得なECサイトは人によって異なります。大切なのは「どこが一番か」を探すことではなく、自分の生活スタイルに合わせて使い分けることです。本記事では、Amazon・楽天市場・Yahoo!ショッピングなど主要ECサイトの特徴と、お得な使い分け方を紹介します。
 doesContainAds: true
-related: [rakuten-mobile-fee, book-cost-saving, strategic-point-earning]
+related: []
 
 ---
 
@@ -52,6 +51,8 @@ ECサイトは
 - ポイント還元が高い
 - セールイベントが多い
 - 楽天経済圏と相性が良い
+
+<a href="https://hb.afl.rakuten.co.jp/hsc/51a63962.efb5990a.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOiI0NCIsImJhbiI6Mjc5NDg4OSwiYW1wIjpmYWxzZX0%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hsb/51a63962.efb5990a.50d25d06.088b928e/?me_id=1&me_adv_id=2794889&t=pict" border="0" style="margin:2px" alt="" title=""></a>
 
 ### Yahoo!ショッピング
 - PayPayポイント還元
@@ -126,6 +127,7 @@ ECサイトを毎回バラバラに使うよりも、利用するサイトをな
 :::
 
 ## 公式オンラインストアのつかいどころ
+
 「メイン」や「サブ」を決めていても、
 
 - 「メイン」や「サブ」上に、好きなブランドやメーカーのグッズを買うことができる直営店や信頼できる店舗がない
@@ -133,6 +135,19 @@ ECサイトを毎回バラバラに使うよりも、利用するサイトをな
 
 といった場合は、公式オンラインストアを使うのも良い選択です。 
 ただし、ポイントや会員特典が分散してしまうため、**基本は「メイン」・「サブ」を優先し、公式ストアは厳選するほうが、全体としてはお得**になりやすいでしょう。
+
+## まずはここからチェック
+
+:::point
+- 使っているスマホキャリア・電力会社と連携できるECサイトを把握する
+- 連携メリットを最大化できるECサイトを「メイン」に決める
+- 配送・送料・品揃えなど、メインにないものを補えるECサイトがあれば「サブ」に決める
+:::
+
+ECサイト選びは「最安を探す作業」ではなく、「仕組みで得する設計」に近いものです。
+「メイン＋サブ」の考え方を取り入れるだけで、  
+普段の買い物でも無理なく、着実に節約効果を積み重ねることができます。
+一度この仕組みを作ってしまえば、その後は特別な工夫をしなくても、自然とお得な状態を維持できます。最初に少しだけ考えて整えるだけで、長期的に見れば大きな差になります。
 
 ## もっと割引を享受したい人におすすめ！クレジットカードも「メイン」か「サブ」合わせよう
 
@@ -156,25 +171,5 @@ ECサイトは、「どこが一番お得か」で選ぶものではありませ
 まずは、自分の生活インフラや利用サービスと相性の良いECサイトを「メイン」として決め、  
 足りない部分を補う「サブ」を選ぶことから始めてみてください。
 
-:::point
-まずはここからチェック
-- 使っているスマホキャリア・電力会社と連携できるECサイトを把握する
-- 連携メリットを最大化できるECサイトを「メイン」に決める
-- 配送・送料・品揃えなど、メインにないものを補えるECサイトがあれば「サブ」に決める
-- 可能であれば支払い方法はポイントが最も貯まるクレジットカードに統一する
-:::
-
-ECサイト選びは「最安を探す作業」ではなく、「仕組みで得する設計」に近いものです。
-「メイン＋サブ」の考え方を取り入れるだけで、  
-普段の買い物でも無理なく、着実に節約効果を積み重ねることができます。
-一度この仕組みを作ってしまえば、その後は特別な工夫をしなくても、自然とお得な状態を維持できます。最初に少しだけ考えて整えるだけで、長期的に見れば大きな差になります。
-
-> より効率よくポイントを貯めたい方は、「[ポイ活で効率よくポイントを貯める方法](/articles/strategic-point-earning/)」もあわせてご覧ください。
-
-<div class="shop-buttons" style="display:flex; flex-direction:column; gap:12px; margin:30px 0; align-items:center; text-align:center;">
-
-  <a href="https://hb.afl.rakuten.co.jp/hsc/51a5be7f.4ff752ca.50d25d06.088b928e/?link_type=pict&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJwaWN0IiwiY29sIjoxLCJjYXQiOiI0NCIsImJhbiI6Mjc5NDkwMSwiYW1wIjpmYWxzZX0%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">
-    <img src="https://hbb.afl.rakuten.co.jp/hsb/51a5be7f.4ff752ca.50d25d06.088b928e/?me_id=1&me_adv_id=2794901&t=pict" border="0" style="margin:2px" alt="" title="">
-  </a>
-
-</div>
+> より効率よくポイントを貯めたい方は、以下記事も合わせてご覧ください。
+> {% article "strategic-point-earning" %}
