@@ -8,7 +8,7 @@ category: trip
 tags: [hotel, ryokan, japan-trip, overseas-trip]
 doesContainAds: true
 intro: 旅行ではできるだけホテル代を抑えたいことも多いですが、安さだけで選ぶと「失敗した」と感じることもたまにあります。もちろん安くて快適なホテルも多いので、価格だけでなく、口コミや写真、立地などを確認してから予約することが大切です。本記事では、「安いけど少し不安な宿泊施設」を避けるために、筆者が実際に見ているポイントをまとめます。
-related: [netcafe-vs-capsule-hotel]
+related: [netcafe-vs-capsule-hotel, overseas-hotel-booking-checkpoints]
 ---
 
 ## 安いホテルが微妙だったと感じる原因
@@ -148,6 +148,9 @@ related: [netcafe-vs-capsule-hotel]
 ホテルだけでなく、カプセルホテルやゲストハウスも検討している場合は、より気を付けるポイントが増えてきます。
 以下の記事も是非参考にしてみてください。
 {% article "capsule-hotel-guesthouse-red-flags" %}
+
+また、海外ホテルに宿泊する際のチェックポイントについては以下でもご紹介しています。
+{% article "overseas-hotel-booking-checkpoints" %}
 :::
 
 ## 筆者が避けることが多いホテルの特徴
