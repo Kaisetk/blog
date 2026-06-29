@@ -138,13 +138,14 @@ related: []
 ホテル予約の際に比較してみるとよいでしょう。
 
 ::: note
-筆者は、海外ホテル予約では<a href="https://expedia.com/affiliate/jzYQnxV" target="_blank" rel="noopener">Expedia</a> 、<a href="https://px.a8.net/svt/ejp?a8mat=4AZ709+4POK6Q+4X1W+60OXE" rel="nofollow">アゴダ</a><amp-pixel src="https://www18.a8.net/0.gif?a8mat=4AZ709+4POK6Q+4X1W+60OXE" layout="nodisplay"></amp-pixel>、Trip.com、国内ホテル予約ではこの3つに加えて<a href="https://px.a8.net/svt/ejp?a8mat=4AZ709+4WTRG2+14CS+64JTE" rel="nofollow">じゃらんnet</a><amp-pixel src="https://www16.a8.net/0.gif?a8mat=4AZ709+4WTRG2+14CS+64JTE" layout="nodisplay"></amp-pixel>と<a href="https://hb.afl.rakuten.co.jp/hsc/53b9f939.6510da6d.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天トラベル</a>を比較して決めています。
+筆者は、<a href="https://expedia.com/affiliate/jzYQnxV" target="_blank" rel="noopener">Expedia</a> 、<a href="https://px.a8.net/svt/ejp?a8mat=4AZ709+4POK6Q+4X1W+60OXE" rel="nofollow">アゴダ</a><amp-pixel src="https://www18.a8.net/0.gif?a8mat=4AZ709+4POK6Q+4X1W+60OXE" layout="nodisplay"></amp-pixel>、<a href="https://px.a8.net/svt/ejp?a8mat=4AZ709+4WTRG2+14CS+64JTE" rel="nofollow">じゃらんnet</a><amp-pixel src="https://www16.a8.net/0.gif?a8mat=4AZ709+4WTRG2+14CS+64JTE" layout="nodisplay">をよく使っています。場合によっては、Trip.com、</amp-pixel>と<a href="https://hb.afl.rakuten.co.jp/hsc/53b9f939.6510da6d.50d25d06.088b928e/?link_type=text&ut=eyJwYWdlIjoic2hvcCIsInR5cGUiOiJ0ZXh0IiwiY29sIjoxLCJjYXQiOjEsImJhbiI6Im5hbWUiLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">楽天トラベル</a>を比較して決めています。
 :::
 
 ただし、価格の安さ、ポイント還元、国内旅館の掲載数、ビジネスホテルの探しやすさなど、それぞれのサイトには特徴があります。
 **うまく使い分けることで、よりお得にホテルを予約できる**ようになります。
 
-予約サイトの特徴やそれぞれの使い分けについては、今後当サイトで記事を増やしていけたらと思います。
+予約サイトの特徴やそれぞれの使い分けについては、以下の記事もご覧ください。
+{% article "hotel-site-comparison" %}
 
 ## さいごに
 
